@@ -1,0 +1,2 @@
+# id   lat         lon           alt   title /other title/, cat
+5738   38.3564276   73.7132978  5200  –≈“. 60 Ã≈‘ Á‚·Ô, 2‚
