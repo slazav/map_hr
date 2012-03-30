@@ -22,4 +22,4 @@ index:
 
 
 update_passes:
-	mapsoft_wp_upd_nom vmap/*.vmap
+	map_wp_upd_nom vmap/*.vmap
