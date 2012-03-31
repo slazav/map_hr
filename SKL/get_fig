@@ -1,0 +1,29 @@
+#!/bin/sh -eu
+
+. mapsoft_map.sh
+. mapsoft_crd.sh
+
+# Получить прямоугольный лист без обрезки краев, для правки
+
+base="$1"
+vmapdir="../vmap"  ## vmap files dir
+
+# read geom and title from maps.txt file
+g="$(map_data geom "$base")"
+t="$(map_data title "$base")"
+
+# calculate source list
+src=''
+for n in $(geom2nom "$g" 100000); do
+  s="$vmapdir/$n.vmap"
+  [ -f "$s" ] && src="$src $s" ||
+    echo "warning: can't find file: $s"
+done
+
+mapsoft_geofig create --datum pulkovo --geom tmerc --geom "$g"\
+                          --rscale 100000 -o "$base.fig"
+
+vmap_copy -v $src --out $base.fig\
+    --range_datum pulk --range_proj tmerc --range "$g"\
+    --set_brd_from_range --join_objects 1e-4 --name "$t"
+
