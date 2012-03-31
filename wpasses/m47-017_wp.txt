@@ -1,0 +1,2 @@
+# id   lat         lon           alt   title /other title/, cat
+9062   51.6231693   98.2777177  2862  вер. Хултраг-Ула
