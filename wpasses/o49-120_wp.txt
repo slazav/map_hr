@@ -1,0 +1,2 @@
+# id   lat         lon           alt   title /other title/, cat
+8187   56.6736575  113.5274277  1700  пер. Каровый, зим.н/к

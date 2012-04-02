@@ -1,0 +1,2 @@
+# id   lat         lon           alt   title /other title/, cat
+8395   68.9831112   92.6248814  1150  пер. Комсомольский

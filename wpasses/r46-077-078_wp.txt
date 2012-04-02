@@ -1,0 +1,2 @@
+# id   lat         lon           alt   title /other title/, cat
+8422   69.7220900   92.1851800  1591  вер. Богатырь

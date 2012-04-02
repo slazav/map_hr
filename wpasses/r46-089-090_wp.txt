@@ -1,0 +1,2 @@
+# id   lat         lon           alt   title /other title/, cat
+8402   69.5750845   92.0261335   860  пер. Лунный

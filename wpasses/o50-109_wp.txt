@@ -1,0 +1,2 @@
+# id   lat         lon           alt   title /other title/, cat
+8203   56.6809919  114.3506095  1250  пер. Рыбачий, зим.н/к
