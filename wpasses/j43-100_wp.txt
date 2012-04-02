@@ -1,0 +1,3 @@
+# id   lat         lon           alt   title /other title/, cat
+8438   37.2687339   73.5334280  4892  пер. Kotal-e-Shaur
+8439   37.2070176   73.7402588  4900  пер. Kotal-e-Shpedgis /Kotal-e-Ghorumdehi/

@@ -922,7 +922,7 @@ OBJECT	0x1100
   TEXT	6392 Koh-e Shir
   OPT	Source	westra_passes
   LABEL	72411279,36853105 0 1 0
-  DATA	72410341,36852104
+  DATA	72410278,36852222
 OBJECT	0x1100
   TEXT	6400 Lunkho-e Sarqi
   OPT	Source	westra_passes
@@ -942,7 +942,7 @@ OBJECT	0x1100
   TEXT	6868 Lunkho-e-Dosare
   OPT	Source	westra_passes
   LABEL	72394992,36775064 0 1 0
-  DATA	72393473,36775812
+  DATA	72393333,36775556
 OBJECT	0x1100
   TEXT	6901 Lunkho-e-Hawar
   OPT	Source	westra_passes
