@@ -12,7 +12,8 @@ for file in $@; do
      s/\([a-i]\)/0\1/g
      s/\([j-s]\)/1\1/g
      s/\([tu]\)/2\1/g
-     s/-//g; s/\..*//' |\
+     s/-//g; s/\..*//
+     s/\(.\{8\}\).*/\1/' |\
        tr abcdefjhijklmnopqrstu 1234567890123456789012)"
 
   err="$(echo "$mp_id" | tr -d '0-9')"
