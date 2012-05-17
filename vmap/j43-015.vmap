@@ -845,7 +845,7 @@ OBJECT	0x1100
   TEXT	5437 пик Пограничников
   OPT	Source	westra_passes
   LABEL	73393042,39478931 0 1 0
-  DATA	73391952,39478089
+  DATA	73391949,39478080
 OBJECT	0x1100
   TEXT	5554 пик Советской Латвии
   OPT	Source	westra_passes

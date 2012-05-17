@@ -1318,7 +1318,7 @@ OBJECT	0x6622
   LABEL	71696948,37072328 0 1 0
   DATA	71693347,37074250
 OBJECT	0x6622
-  TEXT	Донбасс (Безымянный)
+  TEXT	Донбасс
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71648097,37043497 0 1 0
@@ -1336,7 +1336,7 @@ OBJECT	0x6622
   LABEL	71647279,37035768 0 1 0
   DATA	71643636,37036381
 OBJECT	0x6622
-  TEXT	Юбилейный (Конституции)
+  TEXT	Юбилейный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71633595,37037974 0 1 0
@@ -1438,7 +1438,7 @@ OBJECT	0x6625
   LABEL	71691026,37051841 0 1 0
   DATA	71690222,37051211
 OBJECT	0x6625
-  TEXT	Юбилейный (ложный Леси Украинки)
+  TEXT	Юбилейный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71778909,37021988 0 1 0

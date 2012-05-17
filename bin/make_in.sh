@@ -5,6 +5,8 @@ VMAP_DIR="${VMAP_DIR:-vmap}"
 SCALE="${SCALE:-50000}"
 FILTER="${FILTER:-}"
 
+mkdir -p fig
+
 for i in $IN_DIR/*.fig $IN_DIR/*.mp; do
   [ -f $i ] || continue
   name=${i%.*}
