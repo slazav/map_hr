@@ -963,7 +963,7 @@ OBJECT	0x6623 Модиевского Ю.
   OPT	Angle	173
   OPT	Source	westra_passes
   LABEL	71823065,38672533 L H
-  DATA	71821673,38676115
+  DATA	71821673,38676114
 OBJECT	0x6623 Панчхазор
   OPT	Angle	154
   OPT	Source	westra_passes
@@ -988,7 +988,7 @@ OBJECT	0x6623 Соколовой Т.
   OPT	Angle	61
   OPT	Source	westra_passes
   LABEL	71871169,38724283 L H
-  DATA	71869117,38725702
+  DATA	71869118,38725702
 OBJECT	0x6624 Сагдар С.
   OPT	Angle	92
   OPT	Source	westra_passes

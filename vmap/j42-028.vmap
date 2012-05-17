@@ -1078,7 +1078,7 @@ OBJECT	0x6621 Акибивору
   OPT	Angle	-115
   OPT	Source	westra_passes
   LABEL	67915444,39239568 R H
-  DATA	67917401,39242515
+  DATA	67917402,39242515
 OBJECT	0x6621 Ахбашер
   OPT	Angle	-99
   OPT	Source	westra_passes
@@ -1178,7 +1178,7 @@ OBJECT	0x6624 Аксу Ю.
   OPT	Angle	73
   OPT	Source	westra_passes
   LABEL	67985755,39036665 R H
-  DATA	67989410,39037613
+  DATA	67989411,39037613
 OBJECT	0x6624 Елсай
   OPT	Angle	157
   OPT	Source	westra_passes
