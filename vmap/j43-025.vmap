@@ -770,8 +770,8 @@ OBJECT	0x6406 Маргарита
 OBJECT	0x6620 Терсагар
   OPT	Angle	0
   OPT	Source	westra_passes
-  LABEL	72385584,39325559 L H
-  DATA	72389444,39330278
+  LABEL	72259187,39239785 L H
+  DATA	72258367,39239150
 OBJECT	0x6622 Вестра
   OPT	Angle	0
   OPT	Source	westra_passes
