@@ -5,7 +5,7 @@ nom_rscale=$map_rscale
 
 . mapsoft_crd.sh
 
-src_dir="src"
+src_dir="../vmap"
 lab_dir="labels"
 fig_dir="fig"
 
