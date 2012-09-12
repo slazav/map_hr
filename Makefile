@@ -18,11 +18,11 @@ index: index_fan index_pam index_zab index_saj index_tsh index_kav
 index_kav:
 	. bin/map_update_index.sh 500000x200000+8000000+4680000 kav
 index_fan:
-	. bin/map_update_index.sh 150000x130000+12360000+4270000 fan
+	. bin/map_update_index.sh 150000x160000+12360000+4240000 fan
 index_pam:
-	. bin/map_update_index.sh 250000x350000+13180000+4050000 pam
+	. bin/map_update_index.sh 250x350+13180+4050k pam
 index_tsh:
-	. bin/map_update_index.sh 120000x130000+14250000+4610000 tsh
+	. bin/map_update_index.sh 150000x130000+14240000+4610000 tsh
 index_zab:
 	. bin/map_update_index.sh 420000x320000+19310000+6020000 zab
 index_saj:

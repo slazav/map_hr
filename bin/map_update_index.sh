@@ -29,7 +29,8 @@ for n in $(geom2nom "$geom" 100000); do
   [ ! -f "$n.map" ] || maps="$maps $n.map"
   [ ! -f "$n.img" ] || imgs="$imgs $n.img"
 done
-[ "$txt" -ot "$htm" ] || upd=1;
+[ "$txt" -ot "$htm" -a "$txt" -ot "$jpg" ] || upd=1;
+
 
 if [ -z "$upd" ]; then echo "no need to update $base index"; exit 0; fi
 
@@ -37,7 +38,7 @@ if [ -z "$upd" ]; then echo "no need to update $base index"; exit 0; fi
 mapsoft_convert $maps *.plt --rescale_maps=$jpeg_scale -o "$xml"
 sed -i -e 's/.png/.jpg/g' "$xml"
 mapsoft_convert "$xml" --geom "$geom" -o "$jpg"\
-  --map_show_brd --dpi=4 --rscale=100000 --htm="tmp.htm"
+  --map_show_brd --dpi=6 --rscale=100000 --htm="tmp.htm"
 
 cat > "$htm" <<-EOF
 	<html>
