@@ -20,7 +20,7 @@ index_kav:
 index_fan:
 	. bin/map_update_index.sh 150000x160000+12360000+4240000 fan
 index_pam:
-	. bin/map_update_index.sh 250x350+13180+4050k pam
+	. bin/map_update_index.sh 250000x350000+13180000+4050000 pam
 index_tsh:
 	. bin/map_update_index.sh 150000x130000+14240000+4610000 tsh
 index_zab:
