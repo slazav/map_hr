@@ -16,7 +16,7 @@ img:
 index: index_fan index_pam index_zab index_saj index_tsh index_kav
 
 index_kav:
-	. bin/map_update_index.sh 500000x200000+8000000+4680000 kav
+	. bin/map_update_index.sh 420000x210000+8080000+4685000 kav
 index_fan:
 	. bin/map_update_index.sh 150000x160000+12360000+4240000 fan
 index_pam:

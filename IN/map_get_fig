@@ -11,7 +11,7 @@ for name in "$@"; do
   name="$base.fig"
   cp -f -- "$figdir/$name" "$name" ||:
 
-  vmap_copy --range_nom "$base" --set_brd_from_range\
+  ~/mapsoft/programs/mapsoft_vmap --range_nom "$base" --set_brd_from_range\
             --name "$base" --rscale "$rscale"\
             "$vmapdir/$base.vmap" -o "$name"
 done

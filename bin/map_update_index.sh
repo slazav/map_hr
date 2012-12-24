@@ -34,7 +34,7 @@ done
 
 if [ -z "$upd" ]; then echo "no need to update $base index"; exit 0; fi
 
-# make xml with all small jpeg maps; make index imageand htm
+# make xml with all small jpeg maps; make index image and htm
 mapsoft_convert $maps *.plt --rescale_maps=$jpeg_scale -o "$xml"
 sed -i -e 's/.png/.jpg/g' "$xml"
 mapsoft_convert "$xml" --geom "$geom" -o "$jpg"\
