@@ -139,6 +139,16 @@ OBJECT	0x6620 Ваучер
   OPT	Source	westra_passes
   LABEL	113670896,56313950 L H
   DATA	113674027,56318388
+OBJECT	0x6621 Бамовец-1
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	113614444,56035301 L H
+  DATA	113613307,56034666
+OBJECT	0x6621 Бамовец-2
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	113643205,56030936 L H
+  DATA	113642069,56030301
 OBJECT	0x6621 Каменистый
   OPT	Angle	-37
   OPT	Source	westra_passes
