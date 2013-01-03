@@ -20,7 +20,7 @@ mkmap(){
 
   if [ "$f" -nt "$map_dir/$base/$base.100.png" ]; then
     cd $fig_dir
-    map_install "$base"
+    ./map_install "$base"
     cd -
   fi
 }
