@@ -1,0 +1,2 @@
+# id   lat         lon           alt   title /other title/, cat
+10365   38.3038860   74.0120630  4853  вер. Кичак-Чечекты
