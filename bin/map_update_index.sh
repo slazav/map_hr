@@ -58,14 +58,55 @@ sed -e '
     /<html>/d
   }' tmp.htm >> "$htm"
 
-d="$(date +"%F %T")"
+for i in $(echo $maps | tr ' ' '\n' | sort); do
+  n=${i%.map}
+  t=$(stat -c %y $n.png | sed 's/ .*//')
+  cat >> "$htm" <<EOF
+  <li><a href="$n.htm">$n</a> --
+      <a href="$n.png">[PNG]</a>
+      <a href="$n.map">[MAP]</a>
+      <a href="$n.mp.zip">[MP.ZIP]</a>
+      <font color="grey">$t</font>
+EOF
+done
+cat >> "$htm" <<EOF
+  </ul>
+  <p><a href="$img">Полная карта для Garmin, IMG</a>
+  <p><a type="text/plain" href="$xml">Привязка всех карт для mapsoft</a>
+  <p><a href="http://slazav-news.livejournal.com/550874.html">
+      Запись (ЖЖ) для сбора замечаний и исправлений</a>
+  <p><a href="https://github.com/slazav/map_hr">
+      Исходники карт на github (самодельный векторный формат)</a>
+  <p>Последнее обновление: $(date +"%F %X")
 
-cat >> "$htm" <<-EOF
-	<p><a href="$img">Склейка векторных карт в формате IMG (typ-файл включен)</a></p>
-	<p><a href="$xml">Привезка всех листов в формате mapsoft</a></p>
-        <div align=right><i>/$d/</i></div>
-	</body></html>
-	EOF
+  <div align="right">
+  <!--Rating@Mail.ru counter-->
+  <script language="javascript" type="text/javascript"><!--
+  d=document;var a='';a+=';r='+escape(d.referrer);js=10;//--></script>
+  <script language="javascript1.1" type="text/javascript"><!--
+  a+=';j='+navigator.javaEnabled();js=11;//--></script>
+  <script language="javascript1.2" type="text/javascript"><!--
+  s=screen;a+=';s='+s.width+'*'+s.height;
+  a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;//--></script>
+  <script language="javascript1.3" type="text/javascript"><!--
+  js=13;//--></script><script language="javascript" type="text/javascript"><!--
+  d.write('<a href="http://top.mail.ru/jump?from=74208" target="_top">'+
+  '<img src="http://d1.c2.b1.a0.top.mail.ru/counter?id=74208;t=52;js='+js+
+  a+';rand='+Math.random()+'" alt=".......@Mail.ru" border="0" '+
+  'height="31" width="88"><\/a>');if(11<js)d.write('<'+'!-- ');//--></script>
+  <noscript><a target="_top" href="http://top.mail.ru/jump?from=74208">
+  <img src="http://d1.c2.b1.a0.top.mail.ru/counter?js=na;id=74208;t=52".
+  height="31" width="88" border="0" alt=".......@Mail.ru"></a></noscript>
+  <script language="javascript" type="text/javascript"><!--
+  if(11<js)d.write('--'+'>');//--></script>
+  <!--// Rating@Mail.ru counter-->
+  </div>
+
+</body>
+</html>
+EOF
+
+
 
 # make more useful xml
 mapsoft_convert $maps -o "$xml"
