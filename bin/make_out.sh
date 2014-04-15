@@ -26,6 +26,8 @@ for i in $VMAP_DIR/*.vmap; do
   mphead="$MP_DIR/$name.mp"
   fighead="$FIG_DIR/$name.fig"
 
+  range=$(sed -ne "s/$name\s\+//p" maps.txt || echo $name)
+
 
   if [ "$png" -ot "$i" ]; then
     echo "Updating png: $name"
@@ -34,7 +36,7 @@ for i in $VMAP_DIR/*.vmap; do
       convert "$png" -scale 50% "$LAST_PNG_DIR/${name}_o.png" ||:
 
     # create png & map
-    vmap_render --nom "$name" --rscale=${SCALE} -d200 -ND -g2 -m "$map" "$i" "$png"
+    vmap_render --nom "$range" --rscale=${SCALE} -d200 -ND -g2 -m "$map" "$i" "$png"
     map_rescale -s "$STYLE" "$map"
 
 #    # backup png in $OLD_PNG_DIR

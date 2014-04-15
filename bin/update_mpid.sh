@@ -7,7 +7,10 @@ for file in $@; do
   name="${file##*/}"
   name="${name%.*}"
 
-  mp_id="$(echo "$name" |\
+  nom=$(sed -ne "s/$name\s\+//p" maps.txt || echo $name)
+
+
+  mp_id="$(echo "$non" |\
     sed -e '
      s/\([a-i]\)/0\1/g
      s/\([j-s]\)/1\1/g
