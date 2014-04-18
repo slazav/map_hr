@@ -26,7 +26,8 @@ for i in $VMAP_DIR/*.vmap; do
   mphead="$MP_DIR/$name.mp"
   fighead="$FIG_DIR/$name.fig"
 
-  range=$(sed -ne "s/$name\s\+//p" maps.txt || echo $name)
+  range=$(sed -ne "s/$name\s\+//p" maps.txt)
+  [ -n "$range" ] || range="$name"
 
 
   if [ "$png" -ot "$i" ]; then

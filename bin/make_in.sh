@@ -1,4 +1,4 @@
-#!/bin/sh -e
+#!/bin/sh -ex
 
 IN_DIR="${IN_DIR:-IN}"
 VMAP_DIR="${VMAP_DIR:-vmap}"
@@ -50,7 +50,8 @@ for i in $IN_DIR/*.fig $IN_DIR/*.mp; do
     fi
   fi
 
-  range=$(sed -ne "s/$name\s\+//p" maps.txt || echo $name)
+  range=$(sed -ne "s/$name\s\+//p" maps.txt)
+  [ -n "$range" ] || range="$name"
 
   # crop and put to vmap!
   vmap_copy --range_nom "$range" --range_action crop_spl\
