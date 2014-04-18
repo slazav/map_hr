@@ -15,6 +15,7 @@ t="$(map_data title "$base")"
 # calculate source list
 src=''
 for n in $(geom2nom "$g" 100000); do
+  echo $n
   s="$vmapdir/$n.vmap"
   [ -f "$s" ] && src="$src $s" ||
     echo "warning: can't find file: $s"

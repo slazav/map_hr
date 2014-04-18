@@ -13,7 +13,7 @@ mkmap(){
 
   if [ "$f" -nt "$l" ]; then
     echo "saving labels: $base"
-    mapsoft_vmap "$f" -o tmp.vmap --skip_all --split_labels
+    ~/mapsoft/programs/mapsoft_vmap "$f" -o tmp.vmap --skip_all --split_labels
     vmap_fix_diff "$l" tmp.vmap "$l"
     rm -f tmp.vmap
   fi

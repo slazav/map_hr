@@ -1,1 +1,4 @@
-gangotri h44-050+2x2
+gangotri  h44-050:2x2
+smuj      o49-143:3x3
+puto      r46-111-112:2x3
+prural    q40-119-120:2x2

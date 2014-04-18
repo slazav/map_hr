@@ -13,12 +13,14 @@ img:
 	sed -e "/${IMG_NAME}/s/[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}/$(date +%F)/"\
 	  -i /home/sla/CH/data/maps/index.m4i
 
-index: index_fan index_pam index_zab index_saj index_tsh index_kav
+index: index_fan index_pam index_zab index_saj index_tsh index_kav index_nep index_mat
 
 index_kav:
 	. bin/map_update_index.sh 420000x210000+8080000+4685000 kav
 index_fan:
 	. bin/map_update_index.sh 150000x160000+12360000+4240000 fan
+index_mat:
+	. bin/map_update_index.sh 150000x160000+12530000+4300000 mat
 index_pam:
 	. bin/map_update_index.sh 250000x350000+13180000+4050000 pam
 index_tsh:
@@ -27,6 +29,8 @@ index_zab:
 	. bin/map_update_index.sh 420000x320000+19310000+6020000 zab
 index_saj:
 	. bin/map_update_index.sh 390000x430000+17260000+5610000 saj
+index_nep:
+	. bin/map_update_index.sh 700000x350000+14240000+3120000 nep
 
 
 update_passes:
