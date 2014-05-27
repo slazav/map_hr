@@ -18,7 +18,7 @@ index: index_fan index_pam index_zab index_saj index_tsh index_kav index_nep ind
 index_kav:
 	. bin/map_update_index.sh 420000x210000+8080000+4685000 kav
 index_fan:
-	. bin/map_update_index.sh 150000x160000+12360000+4240000 fan
+	. bin/map_update_index.sh 180000x160000+12360000+4240000 fan
 index_mat:
 	. bin/map_update_index.sh 150000x160000+12530000+4300000 mat
 index_pam:

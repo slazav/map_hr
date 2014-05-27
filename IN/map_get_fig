@@ -14,7 +14,7 @@ for name in "$@"; do
   range=$(sed -ne "s/$base\s\+//p" ../maps.txt)
   [ -n "$range" ] || range="$base"
 
-  ~/mapsoft/programs/mapsoft_vmap --range_nom "$range" --set_brd_from_range\
+  mapsoft_vmap --range_nom "$range" --set_brd_from_range\
             --name "$base" --rscale "$rscale"\
             "$vmapdir/$base.vmap" -o "$name"
 done
