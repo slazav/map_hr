@@ -28,7 +28,7 @@ index_tsh:
 index_zab:
 	. bin/map_update_index.sh 420000x320000+19310000+6020000 zab
 index_saj:
-	. bin/map_update_index.sh 390000x430000+17260000+5610000 saj
+	. bin/map_update_index.sh 390000x480000+17260000+5560000 saj
 index_nep:
 	. bin/map_update_index.sh 700000x350000+14240000+3120000 nep
 
