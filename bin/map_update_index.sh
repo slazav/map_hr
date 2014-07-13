@@ -24,13 +24,20 @@ cd "$OUT_DIR"
 maps=''
 imgs=''
 upd=''
+
+pwd
 for n in $(geom2nom "$geom" 100000); do
+  n1=$(echo ../vmap/$n*.vmap)
+  [ -f "$n1" ] || continue
+  n=$(basename $n1 .vmap)
+
   [ "$n.png" -ot "$htm" ] || upd=1;
   [ ! -f "$n.map" ] || maps="$maps $n.map"
   [ ! -f "$n.img" ] || imgs="$imgs $n.img"
 done
 [ "$txt" -ot "$htm" -a "$txt" -ot "$jpg" ] || upd=1;
 
+echo "MAPS: $maps"
 
 if [ -z "$upd" ]; then echo "no need to update $base index"; exit 0; fi
 

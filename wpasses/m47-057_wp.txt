@@ -1,0 +1,2 @@
+# id   lat         lon           alt   title /other title/, cat
+11916   50.6132990  100.0070710  2629  вер. Улхэний-Зх-Ула

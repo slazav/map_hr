@@ -12,6 +12,7 @@ for file in $@; do
 
   mp_id="$(echo "$nom" |\
     sed -e '
+     s/:.*//g;
      s/\([a-i]\)/0\1/g
      s/\([j-s]\)/1\1/g
      s/\([tu]\)/2\1/g

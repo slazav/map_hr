@@ -1,0 +1,2 @@
+# id   lat         lon           alt   title /other title/, cat
+11952   62.7334990  141.0275020  1830  пер. Хидлеке, н/к
