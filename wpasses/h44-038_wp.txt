@@ -1,1 +1,0 @@
-# id   lat         lon           alt   title /other title/, cat

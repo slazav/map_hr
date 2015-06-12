@@ -1,2 +1,0 @@
-# id   lat         lon           alt   title /other title/, cat
-8397   68.8122170   91.8927830   300  пер. Орокан
