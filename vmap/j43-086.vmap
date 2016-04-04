@@ -1,4 +1,4 @@
-VMAP 3.1
+VMAP 3.2
 NAME	j43-086
 RSCALE	100000
 STYLE	hr
@@ -1063,6 +1063,11 @@ OBJECT	0x6620 Юлмазор
   OPT	Source	westra_passes
   LABEL	72908881,37417861 L H
   DATA	72905003,37418512
+OBJECT	0x6621 Лестница Мебиуса
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72860853,37470082 L H
+  DATA	72860053,37469447
 OBJECT	0x6622 Двуликий Янус
   OPT	Angle	-49
   OPT	Source	westra_passes

@@ -1,4 +1,4 @@
-VMAP 3.1
+VMAP 3.2
 NAME	j43-051
 RSCALE	100000
 STYLE	hr
@@ -1233,6 +1233,11 @@ OBJECT	0x6620 Депше
   OPT	Source	westra_passes
   LABEL	73067525,38341391 L H
   DATA	73072167,38345656
+OBJECT	0x6620 Карабулак
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	73053125,38350422 L H
+  DATA	73061198,38354110
 OBJECT	0x6622 Бозбайтал
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1248,11 +1253,6 @@ OBJECT	0x6622 Зорташкол
   OPT	Source	westra_passes
   LABEL	73455108,38554521 L H
   DATA	73452063,38554229
-OBJECT	0x6622 Карабулак
-  OPT	Angle	0
-  OPT	Source	westra_passes
-  LABEL	73053125,38350422 L H
-  DATA	73061198,38354110
 OBJECT	0x6622 Переметный
   OPT	Angle	0
   OPT	Source	westra_passes

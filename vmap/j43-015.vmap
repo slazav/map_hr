@@ -1,4 +1,4 @@
-VMAP 3.1
+VMAP 3.2
 NAME	j43-015
 RSCALE	100000
 STYLE	hr
@@ -704,16 +704,36 @@ OBJECT	0x6623 Мира Западный
   OPT	Source	westra_passes
   LABEL	73001388,39440421 L H
   DATA	73001510,39438510
+OBJECT	0x6623 Назарова
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	73143969,39391468 L H
+  DATA	73143147,39390833
 OBJECT	0x6623 Панорамный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	73057987,39475206 L H
   DATA	73054950,39476617
+OBJECT	0x6623 Сыпучий
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	73184541,39415454 L H
+  DATA	73183719,39414819
 OBJECT	0x6624 Кичкесу
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	73448814,39475163 L H
   DATA	73446050,39474450
+OBJECT	0x6624 Обручева
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	73092906,39454302 L H
+  DATA	73092083,39453667
+OBJECT	0x6624 Спартакиада
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	73073025,39395252 L H
+  DATA	73072203,39394617
 OBJECT	0x6624 Сюрприз
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -734,6 +754,11 @@ OBJECT	0x6625 Кичкесу Северный
   OPT	Source	westra_passes
   LABEL	73466788,39522321 L H
   DATA	73491950,39521317
+OBJECT	0x6625 Ледяной Мыс
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	73080306,39456218 L H
+  DATA	73079483,39455583
 OBJECT	0x6625 Плечо Обручева
   OPT	Angle	0
   OPT	Source	westra_passes

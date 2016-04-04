@@ -1,4 +1,4 @@
-VMAP 3.1
+VMAP 3.2
 NAME	j43-073
 RSCALE	100000
 STYLE	hr
@@ -1573,7 +1573,7 @@ OBJECT	0x6621 Чап
   OPT	Angle	-11
   OPT	Source	westra_passes
   LABEL	72320208,37797727 L H
-  DATA	72317496,37796457
+  DATA	72317496,37796456
 OBJECT	0x6622 Медео
   OPT	Angle	34
   OPT	Source	westra_passes
@@ -1663,7 +1663,7 @@ OBJECT	0x6623 Сафедоб Верх.
   OPT	Angle	61
   OPT	Source	westra_passes
   LABEL	72279875,37879298 L 16.84
-  DATA	72277350,37880254
+  DATA	72277351,37880254
 OBJECT	0x6623 Уар
   OPT	Angle	43
   OPT	Source	westra_passes

@@ -14,12 +14,13 @@ t="$(map_data title "$base")"
 
 # calculate source list
 src=''
-for n in $(geom2nom "$g" 100000); do
-  echo $n
-  s="$vmapdir/$n.vmap"
-  [ -f "$s" ] && src="$src $s" ||
-    echo "warning: can't find file: $s"
+
+for i in $vmapdir/*.vmap; do
+  if convs_nom -t "$(basename $i .vmap)" "$(geom2ll "$g")"; then
+    src="$src $i"
+  fi
 done
+echo $src
 
 mapsoft_geofig create --datum pulkovo --geom tmerc --geom "$g"\
                           --rscale 100000 -o "$base.fig"

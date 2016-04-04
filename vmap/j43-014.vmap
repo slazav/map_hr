@@ -1,4 +1,4 @@
-VMAP 3.1
+VMAP 3.2
 NAME	j43-014
 RSCALE	100000
 STYLE	hr
@@ -499,16 +499,26 @@ OBJECT	0x6623 Красина
   OPT	Source	westra_passes
   LABEL	72729128,39378980 L H
   DATA	72730600,39376550
+OBJECT	0x6624 5100 (Красный)
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72648033,39394063 L H
+  DATA	72647211,39393428
 OBJECT	0x6624 60 лет Октября
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72830392,39408614 L H
-  DATA	72826619,39409362
+  DATA	72825759,39411751
 OBJECT	0x6624 Ачикташ
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72986366,39437219 L H
   DATA	72992840,39440400
+OBJECT	0x6624 Западный
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72628594,39399160 L H
+  DATA	72627772,39398525
 OBJECT	0x6624 Конституции
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -519,6 +529,11 @@ OBJECT	0x6624 Минжар
   OPT	Source	westra_passes
   LABEL	72606822,39378510 L H
   DATA	72603990,39380560
+OBJECT	0x6624 Олимпийский
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72603746,39337518 L H
+  DATA	72602925,39336883
 OBJECT	0x6624 Узловой
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -529,11 +544,21 @@ OBJECT	0x6625 Дзержинского
   OPT	Source	westra_passes
   LABEL	72779550,39365082 L H
   DATA	72778310,39363530
+OBJECT	0x6625 Единства
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72959916,39346329 L H
+  DATA	72959094,39345694
 OBJECT	0x6625 Киевская Русь
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72582577,39334476 L H
   DATA	72580681,39335117
+OBJECT	0x6625 Лачплесис
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72825933,39379688 L H
+  DATA	72825111,39379053
 OBJECT	0x6625 Лыбидь
   OPT	Angle	0
   OPT	Source	westra_passes

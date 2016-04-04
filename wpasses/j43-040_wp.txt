@@ -1,1 +1,2 @@
 # id   lat         lon           alt   title /other title/, cat
+11586   38.8321050   73.6447880  5747  вер. пик Карасак
