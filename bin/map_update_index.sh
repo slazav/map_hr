@@ -1,6 +1,7 @@
 #!/bin/sh -eu
 
-OUT_DIR=${OUT_DIR:-OUT}
+OUT_DIR=/home/sla/map_hr/OUT
+VMAP_DIR=/home/sla/map_hr/vmap
 . mapsoft_crd.sh
 
 if [ "$#" != 2 ]; then
@@ -27,7 +28,7 @@ upd=''
 
 pwd
 for n in $(geom2nom "$geom" 100000); do
-  n1=$(echo ../vmap/$n*.vmap)
+  n1=$(echo $VMAP_DIR/$n*.vmap)
   [ -f "$n1" ] || continue
   n=$(basename $n1 .vmap)
 
