@@ -59,8 +59,8 @@ cat > "$htm" <<-EOF
 [ ! -f "$txt" ] || cat "$txt" >> $htm
 sed -e '
   /^<area/{
-    s/"\([^\."]*\)\.jpg" alt="" title=""/"\1.htm" alt="\1" title="\1"/
-    s/"\([^\."]*\)\.jpg"/"\1.htm"/
+    s/"\([^"]*\)\.jpg" alt="" title=""/"\1.htm" alt="\1" title="\1"/
+    s/"\([^"]*\)\.jpg"/"\1.htm"/
     s/ href="..\/skl_map\/[^"]*"//
     /<\/html>/d
     /<html>/d
