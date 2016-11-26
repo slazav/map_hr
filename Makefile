@@ -14,7 +14,7 @@ img:
 	  -i /home/sla/CH/data/maps/index.m4i
 
 index: index_fan index_pam index_zab index_saj index_tsh index_kav index_nep index_put\
-  index_ura index_sun
+  index_ura index_sun index_chi
 
 index_kav:
 	. bin/map_update_index.sh 420000x210000+8080000+4685000 kav
@@ -36,6 +36,9 @@ index_ura:
 	. bin/map_update_index.sh 120000x100000+10580000+7160000 ura
 index_sun:
 	. bin/map_update_index.sh 300000x200000+24380000+6835000 sun
+
+index_chi:
+	. bin/map_update_index.sh 180000x280000+48650000-4980000 chi
 
 
 update_passes:

@@ -18,8 +18,9 @@ for file in $@; do
      s/\([tu]\)/2\1/g
      s/-//g; s/\..*//
      s/\(.\{8\}\).*/\1/' |\
-       tr abcdefjhijklmnopqrstu 1234567890123456789012)"
+       tr abcdefjhijklmnopqrstux 12345678901234567890121)"
 
+echo $mp_id
   err="$(echo "$mp_id" | tr -d '0-9')"
   if [ -n "$err" ]; then
     echo "Can't find ID for $name!" >&2
