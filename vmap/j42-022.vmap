@@ -1183,6 +1183,11 @@ OBJECT	0x6622 Минтеке Ю.
   OPT	Source	westra_passes
   LABEL	70552818,39651190 L H
   DATA	70551992,39650564
+OBJECT	0x6622 Оби-Комароу Центральный
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	70526377,39380913 L H
+  DATA	70525556,39380278
 OBJECT	0x6622 Щуровского
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1273,6 +1278,11 @@ OBJECT	0x6623 Шабашова
   OPT	Source	westra_passes
   LABEL	70566676,39595137 L H
   DATA	70565842,39594500
+OBJECT	0x6623 Шикорхана
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	70537766,39390357 L H
+  DATA	70536944,39389722
 OBJECT	0x6623 Яшилькуль В.
   OPT	Angle	0
   OPT	Source	westra_passes

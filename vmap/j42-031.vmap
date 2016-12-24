@@ -1083,7 +1083,7 @@ OBJECT	0x6621 Голируд
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69479020,39260267 L H
-  DATA	69478200,39259632
+  DATA	69477764,39259525
 OBJECT	0x6621 Кокирович (Гохирович)
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1163,12 +1163,17 @@ OBJECT	0x6623 25 лет т/к «Гастелло»
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69466772,39258967 L H
-  DATA	69465952,39258332
+  DATA	69466461,39257994
 OBJECT	0x6623 Баснословный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69425601,39249378 L H
   DATA	69424781,39248743
+OBJECT	0x6623 Волжский комсомолец
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	69498159,39271654 L H
+  DATA	69497339,39271019
 OBJECT	0x6623 Памяти Н.Хохрякова
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1199,6 +1204,11 @@ OBJECT	0x6624 Дочерей
   OPT	Source	westra_passes
   LABEL	69456100,39266411 L H
   DATA	69455280,39265776
+OBJECT	0x6624 Петренко В.Я.
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	69389728,39236777 L H
+  DATA	69388908,39236142
 OBJECT	0x6625 Даукаева А.Г
   OPT	Angle	0
   OPT	Source	westra_passes

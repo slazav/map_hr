@@ -1236,6 +1236,11 @@ OBJECT	0x6620 Проходной
   OPT	Source	westra_passes
   LABEL	70338908,39550518 L H
   DATA	70338097,39549889
+OBJECT	0x6621 Кара-Урям
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	70002255,39621654 L H
+  DATA	70001431,39621019
 OBJECT	0x6622 Аксу-Рама
   OPT	Angle	0
   OPT	Source	westra_passes

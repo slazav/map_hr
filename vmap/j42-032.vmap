@@ -1192,7 +1192,7 @@ OBJECT	0x6621 Кумбель-1
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69682024,39182357 L H
-  DATA	69681194,39181714
+  DATA	69681633,39184281
 OBJECT	0x6621 Кумбель-2 (Зиерат)
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1227,12 +1227,17 @@ OBJECT	0x6621 Пичев
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69518680,39068608 L H
-  DATA	69517860,39067963
+  DATA	69516983,39066617
 OBJECT	0x6621 Шодмони
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69856511,39002058 L H
   DATA	69855690,39001423
+OBJECT	0x6622 Акбали-2
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	69639536,39170468 L H
+  DATA	69638717,39169833
 OBJECT	0x6622 Виктория
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1327,7 +1332,7 @@ OBJECT	0x6622 Транзитный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69541174,39088625 L H
-  DATA	69540367,39087982
+  DATA	69543867,39086867
 OBJECT	0x6622 Ханака В. (Субаши)
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1373,11 +1378,6 @@ OBJECT	0x6623 Ветреный
   OPT	Source	westra_passes
   LABEL	69825315,39146299 L H
   DATA	69824509,39145660
-OBJECT	0x6623 Волжский комсомолец
-  OPT	Angle	0
-  OPT	Source	westra_passes
-  LABEL	69504796,39271975 L H
-  DATA	69503976,39271340
 OBJECT	0x6623 Волнистый
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1392,7 +1392,7 @@ OBJECT	0x6623 Джиндон
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69743074,39310863 L H
-  DATA	69742249,39310221
+  DATA	69742267,39309767
 OBJECT	0x6623 Душанбе
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1478,7 +1478,7 @@ OBJECT	0x6624 Согдийский
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69597001,39266761 L H
-  DATA	69596172,39266121
+  DATA	69596172,39266119
 OBJECT	0x6624 Ягноб
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1492,8 +1492,8 @@ OBJECT	0x6625 Б. Пастернака
 OBJECT	0x6625 Волган-Джиндон Верх.
   OPT	Angle	0
   OPT	Source	westra_passes
-  LABEL	69708693,39305272 L H
-  DATA	69707875,39304647
+  LABEL	69704282,39314246 L H
+  DATA	69703461,39313611
 OBJECT	0x6625 Гастелло (С., Ю.)
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1514,6 +1514,11 @@ OBJECT	0x6625 Золотарева Ю.И.
   OPT	Source	westra_passes
   LABEL	69678990,39144839 L H
   DATA	69678169,39144203
+OBJECT	0x6625 Кулуарный
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	69702315,39309624 L H
+  DATA	69701494,39308989
 OBJECT	0x6625 Молодость Сибири
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1524,6 +1529,16 @@ OBJECT	0x6625 Олимпийский (Олимп)
   OPT	Source	westra_passes
   LABEL	69559997,39263902 L H
   DATA	69559166,39263271
+OBJECT	0x6625 Омар Хайям С.
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	69705587,39309263 L H
+  DATA	69704767,39308628
+OBJECT	0x6625 Омар Хайям Ю.
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	69706193,39307729 L H
+  DATA	69705372,39307094
 OBJECT	0x6625 Плакарный
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1533,7 +1548,7 @@ OBJECT	0x6625 Студеный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69540112,39260032 L H
-  DATA	69539286,39259390
+  DATA	69539011,39260153
 OBJECT	0x6625 Таджутдин
   OPT	Angle	0
   OPT	Source	westra_passes

@@ -534,6 +534,11 @@ OBJECT	0x6624 Олимпийский
   OPT	Source	westra_passes
   LABEL	72603746,39337518 L H
   DATA	72602925,39336883
+OBJECT	0x6624 Туюксу Западный
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72979906,39447385 L H
+  DATA	72979083,39446750
 OBJECT	0x6624 Узловой
   OPT	Angle	0
   OPT	Source	westra_passes

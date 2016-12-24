@@ -1037,6 +1037,11 @@ OBJECT	0x6622 Охотничий
   OPT	Source	westra_passes
   LABEL	69989787,39576905 L H
   DATA	69988963,39576270
+OBJECT	0x6622 Пидгирского Зап.
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	69665151,39550554 L H
+  DATA	69664328,39549919
 OBJECT	0x6622 Сабах Западный
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1046,7 +1051,7 @@ OBJECT	0x6622 Школьный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69632525,39360111 L H
-  DATA	69631699,39359470
+  DATA	69634572,39366253
 OBJECT	0x6622 Шутка
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1062,6 +1067,16 @@ OBJECT	0x6622 Ярм-Диспут
   OPT	Source	westra_passes
   LABEL	69982889,39557604 L H
   DATA	69982065,39556969
+OBJECT	0x6623 Мадрушкент
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	69693562,39549852 L H
+  DATA	69692739,39549217
+OBJECT	0x6623 Сабах Переметный
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	69701693,39557354 L H
+  DATA	69700869,39556719
 OBJECT	0x6624 Граненый
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1102,6 +1117,16 @@ OBJECT	0x6624 Ярм В.
   OPT	Source	westra_passes
   LABEL	69979168,39562863 L H
   DATA	69978344,39562228
+OBJECT	0x6625 Ланцберга
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	69682132,39544879 L H
+  DATA	69681308,39544244
+OBJECT	0x6625 Пидгирского Вост.
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	69686238,39554729 L H
+  DATA	69685414,39554094
 OBJECT	0x6626 Ашатская щель
   OPT	Angle	0
   OPT	Source	westra_passes
