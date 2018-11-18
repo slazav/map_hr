@@ -691,127 +691,127 @@ OBJECT	0x6414
   DATA	72023103,39507374
 OBJECT	0x6414
   DATA	72042324,39524436
-OBJECT	0x6620 Бельуток
+OBJECT	0x6700 Бельуток
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72422285,39663593 L H
   DATA	72417833,39662500
-OBJECT	0x6620 Джангы-Джер
+OBJECT	0x6700 Джангы-Джер
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72252703,39662183 L H
   DATA	72252500,39659500
-OBJECT	0x6620 Карауток
+OBJECT	0x6700 Карауток
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72408711,39656106 L H
   DATA	72406000,39657333
-OBJECT	0x6620 Кичикбель
+OBJECT	0x6700 Кичикбель
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72172476,39384168 L H
   DATA	72174667,39381333
-OBJECT	0x6620 Улубель
+OBJECT	0x6700 Улубель
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72124163,39375578 L H
   DATA	72121500,39380500
-OBJECT	0x6620 Шиман-Бель
+OBJECT	0x6700 Шиман-Бель
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72246171,39642135 L H
   DATA	72242333,39642667
-OBJECT	0x6621 Булак
+OBJECT	0x6701 Булак
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72148691,39583343 L H
   DATA	72149000,39580667
-OBJECT	0x6621 Кызылкуль
+OBJECT	0x6701 Кызылкуль
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72017025,39363912 L H
   DATA	72013233,39364933
-OBJECT	0x6621 Шиман
+OBJECT	0x6701 Шиман
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72222627,39663789 L H
   DATA	72219333,39664333
-OBJECT	0x6622 Кызылхунгой
+OBJECT	0x6702 Кызылхунгой
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72316153,39336457 L H
   DATA	72313325,39336914
-OBJECT	0x6622 Шве-Даван
+OBJECT	0x6702 Шве-Даван
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72020067,39391789 L H
   DATA	72016333,39390500
-OBJECT	0x6623 Белый
+OBJECT	0x6703 Белый
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72010517,39375653 L H
   DATA	72011333,39373833
-OBJECT	0x6623 Минтеке С.
+OBJECT	0x6703 Минтеке С.
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72066526,39345478 L H
   DATA	72068000,39349667
-OBJECT	0x6623 Спортивный
+OBJECT	0x6703 Спортивный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72025078,39383732 L H
   DATA	72022000,39384167
-OBJECT	0x6624 Владимира Бондаренко
+OBJECT	0x6704 Владимира Бондаренко
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72398255,39338203 L H
   DATA	72395086,39338658
-OBJECT	0x6624 Высокий
+OBJECT	0x6704 Высокий
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72035993,39379327 L H
   DATA	72034833,39376667
-OBJECT	0x6624 Наташа
+OBJECT	0x6704 Наташа
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72430426,39346524 L H
   DATA	72434558,39345125
-OBJECT	0x6624 Ортоарык
+OBJECT	0x6704 Ортоарык
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72077325,39351674 L H
   DATA	72076000,39349833
-OBJECT	0x6624 Чакманташ (Ачиксу)
+OBJECT	0x6704 Чакманташ (Ачиксу)
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72471313,39379284 L H
   DATA	72495133,39377683
-OBJECT	0x6625 Венички Ерофеева
+OBJECT	0x6705 Венички Ерофеева
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72379667,39356940 L H
   DATA	72377014,39356925
-OBJECT	0x6625 Кок-Киик
+OBJECT	0x6705 Кок-Киик
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72398200,39343846 L H
   DATA	72403500,39342133
-OBJECT	0x6625 Кызылташ С.
+OBJECT	0x6705 Кызылташ С.
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72045987,39369215 L H
   DATA	72043833,39368333
-OBJECT	0x6625 Кызылташ Средн.
+OBJECT	0x6705 Кызылташ Средн.
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72059757,39361819 L H
   DATA	72057000,39361333
-OBJECT	0x6625 Кызылташ Ю.
+OBJECT	0x6705 Кызылташ Ю.
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72069872,39354829 L H
   DATA	72067333,39355167
-OBJECT	0x6625 Сасыктеке В.
+OBJECT	0x6705 Сасыктеке В.
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72398402,39334944 L H

@@ -450,32 +450,32 @@ OBJECT	0x6402 зим.
 OBJECT	0x6616 10
   LABEL	100111873,51060997 L H
   DATA	100109991,51063094
-OBJECT	0x6620 Джиглэгийн-Дава
+OBJECT	0x6700 Джиглэгийн-Дава
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	100148362,51024942 L H
   DATA	100161799,51021482
-OBJECT	0x6620 Нуцгэн-Улийн-Даба
+OBJECT	0x6700 Нуцгэн-Улийн-Даба
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	100137488,51156810 L H
   DATA	100145178,51161948
-OBJECT	0x6620 Улийн-Даба
+OBJECT	0x6700 Улийн-Даба
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	100203887,51149452 L H
   DATA	100200048,51153863
-OBJECT	0x6620 Усан-Худжирын-Дава
+OBJECT	0x6700 Усан-Худжирын-Дава
   OPT	Angle	-147
   OPT	Source	westra_passes
   LABEL	100130976,51168561 L H
   DATA	100132470,51174104
-OBJECT	0x6620 Хачимын-Даба
+OBJECT	0x6700 Хачимын-Даба
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	100170190,51072875 L H
   DATA	100165086,51075591
-OBJECT	0x6622 Ходон-Даба
+OBJECT	0x6702 Ходон-Даба
   OPT	Angle	-168
   OPT	Source	westra_passes
   LABEL	100159777,51280619 L H

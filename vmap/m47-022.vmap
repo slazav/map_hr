@@ -161,27 +161,27 @@ OBJECT	0x6402
 OBJECT	0x6402 зим.
   LABEL	100518688,51624963 L H
   DATA	100505351,51626912
-OBJECT	0x6620 Баясгалангийн-Даба
+OBJECT	0x6700 Баясгалангийн-Даба
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	100680426,51642338 L H
   DATA	100674962,51641355
-OBJECT	0x6620 Мунгийн-Даба
+OBJECT	0x6700 Мунгийн-Даба
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	100863382,51632764 L H
   DATA	100857699,51634010
-OBJECT	0x6620 Хавцалын-Даба
+OBJECT	0x6700 Хавцалын-Даба
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	100647607,51549104 L H
   DATA	100642929,51550201
-OBJECT	0x6620 Хагдагийн-Шил-Даба
+OBJECT	0x6700 Хагдагийн-Шил-Даба
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	100751134,51530522 L H
   DATA	100751968,51535536
-OBJECT	0x6620 Шара-Монды-Даба
+OBJECT	0x6700 Шара-Монды-Даба
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	100674408,51505710 L H

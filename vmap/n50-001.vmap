@@ -638,67 +638,67 @@ OBJECT	0x1100 Именинник
   OPT	Source	westra_passes
   LABEL	114470981,55993585 L H
   DATA	114469861,55992944
-OBJECT	0x6620 В.Горбылок-Бамбуйка
+OBJECT	0x6700 В.Горбылок-Бамбуйка
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	114367127,55834010 L H
   DATA	114365990,55833379
-OBJECT	0x6620 Вертолетный
+OBJECT	0x6700 Вертолетный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	114500431,55883317 L H
   DATA	114499283,55882685
-OBJECT	0x6620 Вост.Горбылок
+OBJECT	0x6700 Вост.Горбылок
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	114048938,55801565 L H
   DATA	114047822,55800935
-OBJECT	0x6621 Мотайка
+OBJECT	0x6701 Мотайка
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	114427541,55963132 L H
   DATA	114426389,55962500
-OBJECT	0x6621 Подарок
+OBJECT	0x6701 Подарок
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	114432457,55942107 L H
   DATA	114431333,55941472
-OBJECT	0x6622 Дружба
+OBJECT	0x6702 Дружба
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	114338504,55886275 L H
   DATA	114337361,55885639
-OBJECT	0x6622 Дудникова
+OBJECT	0x6702 Дудникова
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	114406900,55922002 L H
   DATA	114405778,55921361
-OBJECT	0x6622 Спираль
+OBJECT	0x6702 Спираль
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	114443895,55925111 L H
   DATA	114442778,55924472
-OBJECT	0x6622 Студеный
+OBJECT	0x6702 Студеный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	114312299,55840773 L H
   DATA	114311161,55840146
-OBJECT	0x6622 Троллей
+OBJECT	0x6702 Троллей
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	114436250,55934777 L H
   DATA	114435111,55934139
-OBJECT	0x6622 Холодный
+OBJECT	0x6702 Холодный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	114425872,55957166 L H
   DATA	114424750,55956528
-OBJECT	0x6623 Дружный
+OBJECT	0x6703 Дружный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	114322043,55877131 L H
   DATA	114320915,55876505
-OBJECT	0x6623 Куанда
+OBJECT	0x6703 Куанда
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	114427533,55992227 L H

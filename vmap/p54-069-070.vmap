@@ -1506,22 +1506,22 @@ OBJECT	0x1100 2508 Галченко
   OPT	Source	westra_passes
   LABEL	142851190,62100668 L H
   DATA	142849836,62100047
-OBJECT	0x6620 Водораздельный-1
+OBJECT	0x6700 Водораздельный-1
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	142902296,62145278 L H
   DATA	142900945,62144647
-OBJECT	0x6620 Водораздельный-2
+OBJECT	0x6700 Водораздельный-2
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	142925971,62155584 L H
   DATA	142924607,62154950
-OBJECT	0x6620 Водораздельный-3
+OBJECT	0x6700 Водораздельный-3
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	142931972,62166771 L H
   DATA	142930594,62166135
-OBJECT	0x6621 ЛКТ
+OBJECT	0x6701 ЛКТ
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	142881687,62147734 L H

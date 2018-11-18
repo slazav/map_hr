@@ -976,132 +976,132 @@ OBJECT	0x1100 6095 пик Маяковского
   OPT	Source	westra_passes
   LABEL	71716148,37021558 L H
   DATA	71715098,37020760
-OBJECT	0x6620 Сендиф
+OBJECT	0x6700 Сендиф
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71958076,37175348 L H
   DATA	71968775,37172106
-OBJECT	0x6622 Богуш
+OBJECT	0x6702 Богуш
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71643707,37068841 L H
   DATA	71642914,37068217
-OBJECT	0x6622 Десяти
+OBJECT	0x6702 Десяти
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71696948,37072328 L H
   DATA	71693347,37074250
-OBJECT	0x6622 Донбасс
+OBJECT	0x6702 Донбасс
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71648097,37043497 L H
   DATA	71645772,37046736
-OBJECT	0x6622 Светлана
+OBJECT	0x6702 Светлана
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71721168,37127031 L H
   DATA	71723620,37130970
-OBJECT	0x6622 Стартовый
+OBJECT	0x6702 Стартовый
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71647279,37035768 L H
   DATA	71643636,37036381
-OBJECT	0x6622 Юбилейный
+OBJECT	0x6702 Юбилейный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71633595,37037974 L H
   DATA	71632808,37037361
-OBJECT	0x6623 50 лет Латвийскому ГУ
+OBJECT	0x6703 50 лет Латвийскому ГУ
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71705958,37008818 L H
   DATA	71705939,37012322
-OBJECT	0x6623 Буревестник
+OBJECT	0x6703 Буревестник
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71695447,37043372 L H
   DATA	71694650,37042761
-OBJECT	0x6623 Венера
+OBJECT	0x6703 Венера
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71915515,37018250 L H
   DATA	71915681,37015450
-OBJECT	0x6623 Горизонт
+OBJECT	0x6703 Горизонт
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71873942,37087571 L H
   DATA	71871097,37087672
-OBJECT	0x6623 Киевлян
+OBJECT	0x6703 Киевлян
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71738748,37053592 L H
   DATA	71736294,37053164
-OBJECT	0x6623 Спортклуба СОАН
+OBJECT	0x6703 Спортклуба СОАН
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71696752,37002641 L H
   DATA	71694117,37003056
-OBJECT	0x6624 Донбасс Северный
+OBJECT	0x6704 Донбасс Северный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71650077,37047998 L H
   DATA	71648158,37050222
-OBJECT	0x6624 Иванова
+OBJECT	0x6704 Иванова
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71835837,37015956 L H
   DATA	71832361,37015900
-OBJECT	0x6624 Лазуритовый
+OBJECT	0x6704 Лазуритовый
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71720415,37067608 L H
   DATA	71739267,37066694
-OBJECT	0x6624 Леси Украинки
+OBJECT	0x6704 Леси Украинки
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71773621,37017326 L H
   DATA	71771350,37015925
-OBJECT	0x6624 Славутич
+OBJECT	0x6704 Славутич
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71704145,37050582 L H
   DATA	71703353,37049953
-OBJECT	0x6625 Вальтера Ульбрихта
+OBJECT	0x6705 Вальтера Ульбрихта
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71668956,37061429 L H
   DATA	71669219,37055794
-OBJECT	0x6625 Заманчивый
+OBJECT	0x6705 Заманчивый
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71933631,37009555 L H
   DATA	71931189,37009500
-OBJECT	0x6625 Лукницкого
+OBJECT	0x6705 Лукницкого
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71690420,37065789 L H
   DATA	71687989,37066375
-OBJECT	0x6625 Сюрприз (Спасателей)
+OBJECT	0x6705 Сюрприз (Спасателей)
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71698739,37029143 L H
   DATA	71697939,37028528
-OBJECT	0x6625 Шпиль
+OBJECT	0x6705 Шпиль
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71691026,37051841 L H
   DATA	71690222,37051211
-OBJECT	0x6625 Юбилейный
+OBJECT	0x6705 Юбилейный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71778909,37021988 L H
   DATA	71776933,37023711
-OBJECT	0x6626 Бадом
+OBJECT	0x6706 Бадом
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71784200,37025327 L H
   DATA	71782469,37027208
-OBJECT	0x6626 Маяковского
+OBJECT	0x6706 Маяковского
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71738983,37012905 L H

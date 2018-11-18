@@ -900,57 +900,57 @@ OBJECT	0x6616 7
 OBJECT	0x6616 9
   LABEL	99206588,52012142 L H
   DATA	99204464,52012410
-OBJECT	0x6620 Левый Муя-Гол
+OBJECT	0x6700 Левый Муя-Гол
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	99460215,52065063 L H
   DATA	99455351,52066256
-OBJECT	0x6620 Мухай-Хутэд-Дабан
+OBJECT	0x6700 Мухай-Хутэд-Дабан
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	99171499,52325234 L H
   DATA	99166350,52325560
-OBJECT	0x6620 Обогольский
+OBJECT	0x6700 Обогольский
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	99061333,52199525 L H
   DATA	99073452,52196006
-OBJECT	0x6620 Тулэгтаг-Дабан
+OBJECT	0x6700 Тулэгтаг-Дабан
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	99049477,52062027 L H
   DATA	99058987,52068479
-OBJECT	0x6621 Двойной
+OBJECT	0x6701 Двойной
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	99313913,52147915 L H
   DATA	99319081,52145613
-OBJECT	0x6621 Дилин
+OBJECT	0x6701 Дилин
   OPT	Angle	8
   OPT	Source	westra_passes
   LABEL	99230660,52110373 L H
   DATA	99234523,52114166
-OBJECT	0x6621 Малая Хараганта
+OBJECT	0x6701 Малая Хараганта
   OPT	Angle	79
   OPT	Source	westra_passes
   LABEL	99286908,52023042 L H
   DATA	99282941,52025984
-OBJECT	0x6621 Ненастный
+OBJECT	0x6701 Ненастный
   OPT	Angle	179
   OPT	Source	westra_passes
   LABEL	99332233,52209885 L H
   DATA	99335552,52206718
-OBJECT	0x6621 Попова
+OBJECT	0x6701 Попова
   OPT	Angle	9
   OPT	Source	westra_passes
   LABEL	99205361,52033997 L H
   DATA	99200171,52035934
-OBJECT	0x6621 Хужирта
+OBJECT	0x6701 Хужирта
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	99261119,52159508 L H
   DATA	99267891,52156644
-OBJECT	0x6623 Дмитрия Подкаминера
+OBJECT	0x6703 Дмитрия Подкаминера
   OPT	Angle	-135
   OPT	Source	westra_passes
   LABEL	99079406,52071000 L H

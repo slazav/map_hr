@@ -469,147 +469,147 @@ OBJECT	0x1100 7134 пик Ленина
   OPT	Source	westra_passes
   LABEL	72879109,39344541 L H
   DATA	72878053,39343675
-OBJECT	0x6620 Кунгыр
+OBJECT	0x6700 Кунгыр
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72678574,39446054 L H
   DATA	72686861,39450694
-OBJECT	0x6621 Охотничий
+OBJECT	0x6701 Охотничий
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72535930,39399687 L H
   DATA	72532430,39402410
-OBJECT	0x6621 Путешественников
+OBJECT	0x6701 Путешественников
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72899634,39432983 L H
   DATA	72899467,39437133
-OBJECT	0x6622 Песчаный
+OBJECT	0x6702 Песчаный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72573250,39388763 L H
   DATA	72570040,39389090
-OBJECT	0x6623 50 лет МАИ
+OBJECT	0x6703 50 лет МАИ
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72592076,39358831 L H
   DATA	72589210,39361080
-OBJECT	0x6623 Красина
+OBJECT	0x6703 Красина
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72729128,39378980 L H
   DATA	72730600,39376550
-OBJECT	0x6624 5100 (Красный)
+OBJECT	0x6704 5100 (Красный)
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72648033,39394063 L H
   DATA	72647211,39393428
-OBJECT	0x6624 60 лет Октября
+OBJECT	0x6704 60 лет Октября
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72830392,39408614 L H
   DATA	72825759,39411751
-OBJECT	0x6624 Ачикташ
+OBJECT	0x6704 Ачикташ
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72986366,39437219 L H
   DATA	72992840,39440400
-OBJECT	0x6624 Западный
+OBJECT	0x6704 Западный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72628594,39399160 L H
   DATA	72627772,39398525
-OBJECT	0x6624 Конституции
+OBJECT	0x6704 Конституции
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72573565,39345417 L H
   DATA	72571490,39344330
-OBJECT	0x6624 Минжар
+OBJECT	0x6704 Минжар
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72606822,39378510 L H
   DATA	72603990,39380560
-OBJECT	0x6624 Олимпийский
+OBJECT	0x6704 Олимпийский
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72603746,39337518 L H
   DATA	72602925,39336883
-OBJECT	0x6624 Туюксу Западный
+OBJECT	0x6704 Туюксу Западный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72979906,39447385 L H
   DATA	72979083,39446750
-OBJECT	0x6624 Узловой
+OBJECT	0x6704 Узловой
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72528083,39375703 L H
   DATA	72537380,39379770
-OBJECT	0x6625 Дзержинского
+OBJECT	0x6705 Дзержинского
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72779550,39365082 L H
   DATA	72778310,39363530
-OBJECT	0x6625 Единства
+OBJECT	0x6705 Единства
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72959916,39346329 L H
   DATA	72959094,39345694
-OBJECT	0x6625 Киевская Русь
+OBJECT	0x6705 Киевская Русь
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72582577,39334476 L H
   DATA	72580681,39335117
-OBJECT	0x6625 Лачплесис
+OBJECT	0x6705 Лачплесис
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72825933,39379688 L H
   DATA	72825111,39379053
-OBJECT	0x6625 Лыбидь
+OBJECT	0x6705 Лыбидь
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72506509,39373961 L H
   DATA	72505617,39377117
-OBJECT	0x6625 Сынарджар
+OBJECT	0x6705 Сынарджар
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72551994,39377049 L H
   DATA	72549910,39376580
-OBJECT	0x6625 Татьяна
+OBJECT	0x6705 Татьяна
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72551563,39353202 L H
   DATA	72563300,39356140
-OBJECT	0x6625 Цюрупы
+OBJECT	0x6705 Цюрупы
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72692260,39391925 L H
   DATA	72693010,39395820
-OBJECT	0x6626 Вали Восточный
+OBJECT	0x6706 Вали Восточный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72797878,39334045 L H
   DATA	72797056,39333417
-OBJECT	0x6626 Вали З.
+OBJECT	0x6706 Вали З.
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72746835,39338373 L H
   DATA	72746006,39337742
-OBJECT	0x6626 Корженевского
+OBJECT	0x6706 Корженевского
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72944742,39384070 L H
   DATA	72942567,39383600
-OBJECT	0x6626 Крыленко
+OBJECT	0x6706 Крыленко
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72932237,39373420 L H
   DATA	72931950,39371800
-OBJECT	0x6626 Маршала Жукова
+OBJECT	0x6706 Маршала Жукова
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72881920,39336826 L H
   DATA	72881106,39336200
-OBJECT	0x6626 Саукдара М.
+OBJECT	0x6706 Саукдара М.
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72835602,39339337 L H

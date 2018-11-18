@@ -1168,393 +1168,393 @@ OBJECT	0x1100 4816 Волган
   OPT	Source	westra_passes
   LABEL	69697562,39289665 L H
   DATA	69696740,39289023
-OBJECT	0x6620 Захоб
+OBJECT	0x6700 Захоб
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69521840,39174034 L H
   DATA	69521014,39173400
-OBJECT	0x6620 Панорамный
+OBJECT	0x6700 Панорамный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69609824,39188722 L H
   DATA	69608996,39188093
-OBJECT	0x6620 Пастуший
+OBJECT	0x6700 Пастуший
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69589050,39193233 L H
   DATA	69588239,39192592
-OBJECT	0x6621 3540
+OBJECT	0x6701 3540
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69505678,39187058 L H
   DATA	69504862,39186420
-OBJECT	0x6621 Кумбель-1
+OBJECT	0x6701 Кумбель-1
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69682024,39182357 L H
   DATA	69681633,39184281
-OBJECT	0x6621 Кумбель-2 (Зиерат)
+OBJECT	0x6701 Кумбель-2 (Зиерат)
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69683990,39204887 L H
   DATA	69683174,39204249
-OBJECT	0x6621 Кунтамас
+OBJECT	0x6701 Кунтамас
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69689085,39226036 L H
   DATA	69688276,39225395
-OBJECT	0x6621 Курук
+OBJECT	0x6701 Курук
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69553255,39039902 L H
   DATA	69552429,39039259
-OBJECT	0x6621 Неожиданный (Нежданный)
+OBJECT	0x6701 Неожиданный (Нежданный)
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69539470,39104348 L H
   DATA	69538639,39103722
-OBJECT	0x6621 Неожиданный (Нежданный)
+OBJECT	0x6701 Неожиданный (Нежданный)
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69540081,39103725 L H
   DATA	69539267,39103086
-OBJECT	0x6621 Пакшиф
+OBJECT	0x6701 Пакшиф
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69899039,39331845 L H
   DATA	69898221,39331211
-OBJECT	0x6621 Пичев
+OBJECT	0x6701 Пичев
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69518680,39068608 L H
   DATA	69516983,39066617
-OBJECT	0x6621 Шодмони
+OBJECT	0x6701 Шодмони
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69856511,39002058 L H
   DATA	69855690,39001423
-OBJECT	0x6622 Акбали-2
+OBJECT	0x6702 Акбали-2
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69639536,39170468 L H
   DATA	69638717,39169833
-OBJECT	0x6622 Виктория
+OBJECT	0x6702 Виктория
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69657127,39040665 L H
   DATA	69656303,39040024
-OBJECT	0x6622 Даштихирсон (Сары-Джазира, Хирсон)
+OBJECT	0x6702 Даштихирсон (Сары-Джазира, Хирсон)
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69870529,39145610 L H
   DATA	69869698,39144974
-OBJECT	0x6622 Демнора Ю.
+OBJECT	0x6702 Демнора Ю.
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69768938,39291198 L H
   DATA	69768116,39290554
-OBJECT	0x6622 Дополнительный
+OBJECT	0x6702 Дополнительный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69675688,39140955 L H
   DATA	69674875,39140328
-OBJECT	0x6622 Каньонный
+OBJECT	0x6702 Каньонный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69534544,39016166 L H
   DATA	69533723,39015534
-OBJECT	0x6622 Лиго
+OBJECT	0x6702 Лиго
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69553714,39089107 L H
   DATA	69552902,39088474
-OBJECT	0x6622 Логичный (Дар)
+OBJECT	0x6702 Логичный (Дар)
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69685311,39219052 L H
   DATA	69684486,39218410
-OBJECT	0x6622 Оби-Барзанги (Срез Барзанги)
+OBJECT	0x6702 Оби-Барзанги (Срез Барзанги)
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69687321,39094483 L H
   DATA	69686493,39093842
-OBJECT	0x6622 Озерный
+OBJECT	0x6702 Озерный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69507080,39062453 L H
   DATA	69506271,39061825
-OBJECT	0x6622 Покрут I
+OBJECT	0x6702 Покрут I
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69528554,39087562 L H
   DATA	69527725,39086929
-OBJECT	0x6622 Сангдара (Самара)
+OBJECT	0x6702 Сангдара (Самара)
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69588770,39112858 L H
   DATA	69587959,39112228
-OBJECT	0x6622 Сангикар (Хир-сон, Бугуны, Сары-Кобды, Молодежный)
+OBJECT	0x6702 Сангикар (Хир-сон, Бугуны, Сары-Кобды, Молодежный)
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69847648,39124078 L H
   DATA	69846825,39123451
-OBJECT	0x6622 Сентябрьский
+OBJECT	0x6702 Сентябрьский
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69663547,39277692 L H
   DATA	69662722,39277056
-OBJECT	0x6622 Сентябрьский
+OBJECT	0x6702 Сентябрьский
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69664831,39277304 L H
   DATA	69664000,39276667
-OBJECT	0x6622 Снежного барса
+OBJECT	0x6702 Снежного барса
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69540622,39097016 L H
   DATA	69539802,39096381
-OBJECT	0x6622 Такали Верхний
+OBJECT	0x6702 Такали Верхний
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69665787,39272154 L H
   DATA	69664972,39271528
-OBJECT	0x6622 Такоб
+OBJECT	0x6702 Такоб
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69503471,39264979 L H
   DATA	69502651,39264344
-OBJECT	0x6622 Ти Шах
+OBJECT	0x6702 Ти Шах
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69680579,39278335 L H
   DATA	69679771,39277698
-OBJECT	0x6622 Транзитный
+OBJECT	0x6702 Транзитный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69541174,39088625 L H
   DATA	69543867,39086867
-OBJECT	0x6622 Ханака В. (Субаши)
+OBJECT	0x6702 Ханака В. (Субаши)
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69622038,39108742 L H
   DATA	69621216,39108109
-OBJECT	0x6622 Ханака З. (Канак)
+OBJECT	0x6702 Ханака З. (Канак)
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69613337,39112932 L H
   DATA	69612511,39112293
-OBJECT	0x6623 40 лет Победы
+OBJECT	0x6703 40 лет Победы
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69653432,39094137 L H
   DATA	69652611,39093498
-OBJECT	0x6623 Акбали
+OBJECT	0x6703 Акбали
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69643816,39152398 L H
   DATA	69642997,39151763
-OBJECT	0x6623 Боковой
+OBJECT	0x6703 Боковой
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69597713,39280951 L H
   DATA	69596886,39280314
-OBJECT	0x6623 Бугинек(Гориф II)
+OBJECT	0x6703 Бугинек(Гориф II)
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69776883,39130196 L H
   DATA	69776062,39129566
-OBJECT	0x6623 Буревестник
+OBJECT	0x6703 Буревестник
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69645119,39276454 L H
   DATA	69644287,39275822
-OBJECT	0x6623 Веры Криворучко
+OBJECT	0x6703 Веры Криворучко
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69769940,39274416 L H
   DATA	69769109,39273790
-OBJECT	0x6623 Ветреный
+OBJECT	0x6703 Ветреный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69825315,39146299 L H
   DATA	69824509,39145660
-OBJECT	0x6623 Волнистый
+OBJECT	0x6703 Волнистый
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69532459,39091128 L H
   DATA	69531653,39090493
-OBJECT	0x6623 Демнора С.
+OBJECT	0x6703 Демнора С.
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69762511,39313921 L H
   DATA	69761697,39313295
-OBJECT	0x6623 Джиндон
+OBJECT	0x6703 Джиндон
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69743074,39310863 L H
   DATA	69742267,39309767
-OBJECT	0x6623 Душанбе
+OBJECT	0x6703 Душанбе
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69725134,39302889 L H
   DATA	69724322,39302260
-OBJECT	0x6623 Кальтакуль Южный
+OBJECT	0x6703 Кальтакуль Южный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69526785,39108990 L H
   DATA	69525972,39108361
-OBJECT	0x6623 Московской Олимпиады
+OBJECT	0x6703 Московской Олимпиады
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69650780,39127223 L H
   DATA	69649955,39126592
-OBJECT	0x6623 Покрут II
+OBJECT	0x6703 Покрут II
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69520131,39084457 L H
   DATA	69519318,39083820
-OBJECT	0x6623 Сангдара Центр.
+OBJECT	0x6703 Сангдара Центр.
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69582416,39105784 L H
   DATA	69581589,39105148
-OBJECT	0x6623 Седло Такали
+OBJECT	0x6703 Седло Такали
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69655677,39281680 L H
   DATA	69654861,39281036
-OBJECT	0x6623 Сорбо (Каняз)
+OBJECT	0x6703 Сорбо (Каняз)
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69652178,39108638 L H
   DATA	69651349,39107998
-OBJECT	0x6623 Такали С.
+OBJECT	0x6703 Такали С.
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69619257,39261440 L H
   DATA	69618431,39260803
-OBJECT	0x6623 Такали Северный
+OBJECT	0x6703 Такали Северный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69619508,39260738 L H
   DATA	69618694,39260111
-OBJECT	0x6623 Ю.Визбора
+OBJECT	0x6703 Ю.Визбора
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69517538,39066951 L H
   DATA	69516708,39066321
-OBJECT	0x6624 ДКТ
+OBJECT	0x6704 ДКТ
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69699198,39144900 L H
   DATA	69698380,39144264
-OBJECT	0x6624 Зебо
+OBJECT	0x6704 Зебо
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69753464,39137156 L H
   DATA	69752647,39136520
-OBJECT	0x6624 Каровый
+OBJECT	0x6704 Каровый
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69715590,39148985 L H
   DATA	69714775,39148342
-OBJECT	0x6624 Криворожский
+OBJECT	0x6704 Криворожский
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69783933,39265795 L H
   DATA	69783124,39265166
-OBJECT	0x6624 Кринички
+OBJECT	0x6704 Кринички
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69684404,39149112 L H
   DATA	69683594,39148472
-OBJECT	0x6624 Любимых
+OBJECT	0x6704 Любимых
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69515814,39261503 L H
   LABEL	69516020,39261502 L H
   DATA	69515194,39260871
-OBJECT	0x6624 Согдийский
+OBJECT	0x6704 Согдийский
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69597001,39266761 L H
   DATA	69596172,39266119
-OBJECT	0x6624 Ягноб
+OBJECT	0x6704 Ягноб
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69646603,39145484 L H
   DATA	69645792,39144856
-OBJECT	0x6625 Б. Пастернака
+OBJECT	0x6705 Б. Пастернака
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69586683,39279090 L H
   DATA	69585863,39278455
-OBJECT	0x6625 Волган-Джиндон Верх.
+OBJECT	0x6705 Волган-Джиндон Верх.
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69704282,39314246 L H
   DATA	69703461,39313611
-OBJECT	0x6625 Гастелло (С., Ю.)
+OBJECT	0x6705 Гастелло (С., Ю.)
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69671319,39149208 L H
   DATA	69670505,39148566
-OBJECT	0x6625 Дальневосточников Южный
+OBJECT	0x6705 Дальневосточников Южный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69580532,39280937 L H
   DATA	69579722,39280306
-OBJECT	0x6625 Ди-Сер-Та
+OBJECT	0x6705 Ди-Сер-Та
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69726039,39142554 L H
   DATA	69725227,39141926
-OBJECT	0x6625 Золотарева Ю.И.
+OBJECT	0x6705 Золотарева Ю.И.
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69678990,39144839 L H
   DATA	69678169,39144203
-OBJECT	0x6625 Кулуарный
+OBJECT	0x6705 Кулуарный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69702315,39309624 L H
   DATA	69701494,39308989
-OBJECT	0x6625 Молодость Сибири
+OBJECT	0x6705 Молодость Сибири
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69576996,39280074 L H
   DATA	69576167,39279444
-OBJECT	0x6625 Олимпийский (Олимп)
+OBJECT	0x6705 Олимпийский (Олимп)
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69559997,39263902 L H
   DATA	69559166,39263271
-OBJECT	0x6625 Омар Хайям С.
+OBJECT	0x6705 Омар Хайям С.
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69705587,39309263 L H
   DATA	69704767,39308628
-OBJECT	0x6625 Омар Хайям Ю.
+OBJECT	0x6705 Омар Хайям Ю.
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69706193,39307729 L H
   DATA	69705372,39307094
-OBJECT	0x6625 Плакарный
+OBJECT	0x6705 Плакарный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69670015,39286183 L H
   DATA	69669197,39285542
-OBJECT	0x6625 Студеный
+OBJECT	0x6705 Студеный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69540112,39260032 L H
   DATA	69539011,39260153
-OBJECT	0x6625 Таджутдин
+OBJECT	0x6705 Таджутдин
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69710759,39295511 L H
   DATA	69709934,39294884
-OBJECT	0x6626 Карачуны
+OBJECT	0x6706 Карачуны
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69522847,39258429 L H

@@ -1121,72 +1121,72 @@ OBJECT	0x6616 8
 OBJECT	0x6616 9
   LABEL	99805707,50693932 L H
   DATA	99807859,50697015
-OBJECT	0x6620 Гарах
+OBJECT	0x6700 Гарах
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	99871191,50836355 L H
   DATA	99871973,50833649
-OBJECT	0x6620 Нарт
+OBJECT	0x6700 Нарт
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	99833249,50783866 L H
   DATA	99834607,50780967
-OBJECT	0x6620 Нарт-Дава
+OBJECT	0x6700 Нарт-Дава
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	99836490,50772955 L H
   DATA	99832675,50774750
-OBJECT	0x6620 Тройной
+OBJECT	0x6700 Тройной
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	99974766,50919450 L H
   DATA	99971175,50920008
-OBJECT	0x6620 Хорьдалын-Даба
+OBJECT	0x6700 Хорьдалын-Даба
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	99925852,50870699 L H
   DATA	99936413,50874986
-OBJECT	0x6621 Белой Собачки
+OBJECT	0x6701 Белой Собачки
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	99943359,50926220 L H
   DATA	99939648,50927234
-OBJECT	0x6621 Белый
+OBJECT	0x6701 Белый
   OPT	Angle	-178
   OPT	Source	westra_passes
   LABEL	99797395,50788152 L H
   DATA	99800549,50793093
-OBJECT	0x6621 Высокий
+OBJECT	0x6701 Высокий
   OPT	Angle	-77
   OPT	Source	westra_passes
   LABEL	99632854,50758750 L H
   DATA	99629555,50757928
-OBJECT	0x6621 Санный
+OBJECT	0x6701 Санный
   OPT	Angle	43
   OPT	Source	westra_passes
   LABEL	99744478,50857849 L H
   DATA	99743223,50856362
-OBJECT	0x6621 Черный
+OBJECT	0x6701 Черный
   OPT	Angle	36
   OPT	Source	westra_passes
   LABEL	99642962,50740134 L H
   DATA	99644102,50744409
-OBJECT	0x6622 Монгольских Туристов
+OBJECT	0x6702 Монгольских Туристов
   OPT	Angle	-69
   OPT	Source	westra_passes
   LABEL	99846371,50822971 L H
   DATA	99841849,50823787
-OBJECT	0x6622 Потешных Каньонов
+OBJECT	0x6702 Потешных Каньонов
   OPT	Angle	91
   OPT	Source	westra_passes
   LABEL	99752320,50827231 L H
   DATA	99748981,50829288
-OBJECT	0x6622 Проходной
+OBJECT	0x6702 Проходной
   OPT	Angle	72
   OPT	Source	westra_passes
   LABEL	99835091,50843092 L H
   DATA	99831691,50844231
-OBJECT	0x6622 Странной Травы
+OBJECT	0x6702 Странной Травы
   OPT	Angle	-53
   OPT	Source	westra_passes
   LABEL	99912582,50841074 L H
