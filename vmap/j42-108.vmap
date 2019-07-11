@@ -986,6 +986,16 @@ OBJECT	0x6702 Богуш
   OPT	Source	westra_passes
   LABEL	71643707,37068841 L H
   DATA	71642914,37068217
+OBJECT	0x6702 Бун-ед
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	71723667,37166785 L H
+  DATA	71722870,37166150
+OBJECT	0x6702 Вяз (Дукиль)
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	71708347,37135475 L H
+  DATA	71707550,37134840
 OBJECT	0x6702 Десяти
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -996,6 +1006,11 @@ OBJECT	0x6702 Донбасс
   OPT	Source	westra_passes
   LABEL	71648097,37043497 L H
   DATA	71645772,37046736
+OBJECT	0x6702 Зимбрадар
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	71639807,37208665 L H
+  DATA	71639010,37208030
 OBJECT	0x6702 Светлана
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1006,6 +1021,11 @@ OBJECT	0x6702 Стартовый
   OPT	Source	westra_passes
   LABEL	71647279,37035768 L H
   DATA	71643636,37036381
+OBJECT	0x6702 Украина (Одиннадцати)
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	71700216,37096545 L H
+  DATA	71699420,37095910
 OBJECT	0x6702 Юбилейный
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1036,11 +1056,21 @@ OBJECT	0x6703 Киевлян
   OPT	Source	westra_passes
   LABEL	71738748,37053592 L H
   DATA	71736294,37053164
+OBJECT	0x6703 Ростоу (Даван)
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	71672357,37150575 L H
+  DATA	71671560,37149940
 OBJECT	0x6703 Спортклуба СОАН
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71696752,37002641 L H
   DATA	71694117,37003056
+OBJECT	0x6703 Танурдор
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	71714746,37127555 L H
+  DATA	71713950,37126920
 OBJECT	0x6704 Донбасс Северный
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1066,6 +1096,11 @@ OBJECT	0x6704 Славутич
   OPT	Source	westra_passes
   LABEL	71704145,37050582 L H
   DATA	71703353,37049953
+OBJECT	0x6704 Тусиян
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	71697257,37142175 L H
+  DATA	71696460,37141540
 OBJECT	0x6705 Вальтера Ульбрихта
   OPT	Angle	0
   OPT	Source	westra_passes

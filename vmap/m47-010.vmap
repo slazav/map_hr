@@ -674,7 +674,7 @@ OBJECT	0x6701 Победа
   OPT	Angle	-155
   OPT	Source	westra_passes
   LABEL	100564418,51728682 L H
-  DATA	100565560,51733511
+  DATA	100565560,51733510
 OBJECT	0x6701 Седло Мунку
   OPT	Angle	85
   OPT	Source	westra_passes

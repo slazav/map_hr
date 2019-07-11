@@ -1,2 +1,0 @@
-# id   lat         lon           alt   title /other title/, cat
-5766   37.8012241   71.9563037  4859  пер. Штам /Штом/, 1Б

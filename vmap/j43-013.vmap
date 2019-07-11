@@ -729,13 +729,13 @@ OBJECT	0x6701 Булак
 OBJECT	0x6701 Кызылкуль
   OPT	Angle	0
   OPT	Source	westra_passes
-  LABEL	72017025,39363912 L H
-  DATA	72013233,39364933
+  LABEL	72015261,39352355 L H
+  DATA	72014440,39351720
 OBJECT	0x6701 Шиман
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72222627,39663789 L H
-  DATA	72219333,39664333
+  DATA	72220667,39663500
 OBJECT	0x6702 Кызылхунгой
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -795,7 +795,7 @@ OBJECT	0x6705 Кок-Киик
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72398200,39343846 L H
-  DATA	72403500,39342133
+  DATA	72403500,39342130
 OBJECT	0x6705 Кызылташ С.
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -811,6 +811,11 @@ OBJECT	0x6705 Кызылташ Ю.
   OPT	Source	westra_passes
   LABEL	72069872,39354829 L H
   DATA	72067333,39355167
+OBJECT	0x6705 Рыбный день
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72444201,39359895 L H
+  DATA	72443380,39359260
 OBJECT	0x6705 Сасыктеке В.
   OPT	Angle	0
   OPT	Source	westra_passes

@@ -81,10 +81,9 @@ cat >> "$htm" <<EOF
   </ul>
   <p><a href="$img">Полная карта для Garmin, IMG</a>
   <p><a type="text/plain" href="$xml">Привязка всех карт для mapsoft</a>
-  <p><a href="http://slazav-news.livejournal.com/550874.html">
-      Запись (ЖЖ) для сбора замечаний и исправлений</a>
   <p><a href="https://github.com/slazav/map_hr">
       Исходники карт на github (самодельный векторный формат)</a>
+  <p>Замечания и дополнения принимаются по адресу slazav at altlinux.org.
   <p>Последнее обновление: $(date +"%F %X")
 
   <div align="right">

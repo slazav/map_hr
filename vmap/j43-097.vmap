@@ -799,6 +799,26 @@ OBJECT	0x1100 6723 пик К.Маркса
   OPT	Source	westra_passes
   LABEL	72472665,37162131 L H
   DATA	72481538,37160940
+OBJECT	0x6406 Верхний Хацак
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72402952,37164291 L H
+  DATA	72402156,37163656
+OBJECT	0x6406 Вранг Восточный
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72395827,37169416 L H
+  DATA	72395031,37168781
+OBJECT	0x6406 НКТ
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72377402,37167877 L H
+  DATA	72376606,37167242
+OBJECT	0x6406 им. ак. Скрябина
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72399530,37167971 L H
+  DATA	72398733,37167336
 OBJECT	0x6701 Вранг
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -819,6 +839,11 @@ OBJECT	0x6701 Ходаш
   OPT	Source	westra_passes
   LABEL	72352295,37160625 L H
   DATA	72351156,37164103
+OBJECT	0x6702 Ragutis
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72304607,37161365 L H
+  DATA	72303810,37160730
 OBJECT	0x6702 Врхац
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -864,6 +889,16 @@ OBJECT	0x6702 Ямг
   OPT	Source	westra_passes
   LABEL	72286000,37088754 L H
   DATA	72285194,37088125
+OBJECT	0x6703 Azuolas
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72389196,37105185 L H
+  DATA	72388400,37104550
+OBJECT	0x6703 Zigeiviu
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72375237,37144255 L H
+  DATA	72374440,37143620
 OBJECT	0x6703 Вечерний
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -959,6 +994,11 @@ OBJECT	0x6704 Овальный
   OPT	Source	westra_passes
   LABEL	72436965,37148151 L H
   DATA	72434244,37149367
+OBJECT	0x6704 Олимпиады
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72050855,37007815 L H
+  DATA	72050060,37007180
 OBJECT	0x6704 Ольга
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -994,6 +1034,11 @@ OBJECT	0x6705 90 лет Новосибирска
   OPT	Source	westra_passes
   LABEL	72254150,37096049 L H
   DATA	72253219,37095206
+OBJECT	0x6705 Baltija
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72327037,37150435 L H
+  DATA	72326240,37149800
 OBJECT	0x6705 XXVII съезда КПСС
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1023,7 +1068,7 @@ OBJECT	0x6705 Нишгар Центр.
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72455281,37154611 L H
-  DATA	72476054,37155935
+  DATA	72476054,37155934
 OBJECT	0x6705 Рацека
   OPT	Angle	0
   OPT	Source	westra_passes

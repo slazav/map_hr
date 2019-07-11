@@ -991,26 +991,36 @@ OBJECT	0x6700 Ангарский
   OPT	Source	westra_passes
   LABEL	113790232,56607125 R H
   DATA	113795450,56608167
+OBJECT	0x6700 Диконеприступный
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	113507676,56407856 L H
+  DATA	113506528,56407221
 OBJECT	0x6700 Дочки
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	113700006,56496397 L H
-  DATA	113705452,56500739
+  DATA	113705444,56500740
 OBJECT	0x6700 Лыжный
   OPT	Angle	-173
   OPT	Source	westra_passes
   LABEL	113683262,56625795 L H
   DATA	113687346,56622785
 OBJECT	0x6700 Мамакан
-  OPT	Angle	63
+  OPT	Angle	64
   OPT	Source	westra_passes
   LABEL	113956956,56542042 L H
-  DATA	113961077,56546424
+  DATA	113961077,56546423
+OBJECT	0x6700 Неприступный
+  OPT	Angle	140
+  OPT	Source	westra_passes
+  LABEL	113587421,56420659 L H
+  DATA	113586148,56419873
 OBJECT	0x6700 Пломбир
   OPT	Angle	-155
   OPT	Source	westra_passes
   LABEL	113766738,56521445 L H
-  DATA	113762791,56524661
+  DATA	113762767,56524650
 OBJECT	0x6700 Слоник Вост.
   OPT	Angle	-132
   OPT	Source	westra_passes
@@ -1021,6 +1031,11 @@ OBJECT	0x6700 Слоник Зап.
   OPT	Source	westra_passes
   LABEL	113613982,56444964 L H
   DATA	113616206,56449806
+OBJECT	0x6700 Солнечный
+  OPT	Angle	-174
+  OPT	Source	westra_passes
+  LABEL	113587715,56412278 L H
+  DATA	113586617,56411180
 OBJECT	0x6700 Сюрприз
   OPT	Angle	166
   OPT	Source	westra_passes
@@ -1051,6 +1066,16 @@ OBJECT	0x6701 Ангаракан
   OPT	Source	westra_passes
   LABEL	113747598,56362099 R H
   DATA	113750132,56367340
+OBJECT	0x6701 Великий Кормчий
+  OPT	Angle	-32
+  OPT	Source	westra_passes
+  LABEL	113762778,56517160 L H
+  DATA	113759074,56517782
+OBJECT	0x6701 Межозерный
+  OPT	Angle	-176
+  OPT	Source	westra_passes
+  LABEL	113589665,56441331 L H
+  DATA	113588548,56440244
 OBJECT	0x6701 Пермский
   OPT	Angle	154
   OPT	Source	westra_passes
@@ -1060,17 +1085,47 @@ OBJECT	0x6701 Снежный
   OPT	Angle	178
   OPT	Source	westra_passes
   LABEL	113605817,56410971 L H
-  DATA	113599993,56410266
+  DATA	113599994,56410266
+OBJECT	0x6701 Суровых Мужчин
+  OPT	Angle	169
+  OPT	Source	westra_passes
+  LABEL	113554699,56423107 L H
+  DATA	113553473,56422053
+OBJECT	0x6702 80-летия МИСиС
+  OPT	Angle	132
+  OPT	Source	westra_passes
+  LABEL	113578415,56431274 L H
+  DATA	113577856,56431162
 OBJECT	0x6702 Бронницкий
   OPT	Angle	-163
   OPT	Source	westra_passes
   LABEL	113887515,56525364 L H
   DATA	113889920,56529431
+OBJECT	0x6702 Ежик в тумане
+  OPT	Angle	152
+  OPT	Source	westra_passes
+  LABEL	113538649,56500086 L H
+  DATA	113537372,56499214
+OBJECT	0x6702 Красивый
+  OPT	Angle	16
+  OPT	Source	westra_passes
+  LABEL	113815103,56660751 L H
+  DATA	113813987,56659983
+OBJECT	0x6702 Любимых Женщин
+  OPT	Angle	172
+  OPT	Source	westra_passes
+  LABEL	113527902,56426602 L H
+  DATA	113529076,56423980
 OBJECT	0x6702 Медвежий
   OPT	Angle	-175
   OPT	Source	westra_passes
   LABEL	113731526,56519070 L -41.18
   DATA	113729949,56521268
+OBJECT	0x6702 Обзорный
+  OPT	Angle	24
+  OPT	Source	westra_passes
+  LABEL	113733349,56401678 L H
+  DATA	113732319,56400785
 OBJECT	0x6702 Протасов-чорр
   OPT	Angle	-55
   OPT	Source	westra_passes
@@ -1087,15 +1142,10 @@ OBJECT	0x6702 Южная Амнунда
   LABEL	113756767,56342086 L H
   DATA	113752146,56342834
 OBJECT	0x6703 Белая собака
-  OPT	Angle	-112
+  OPT	Angle	-116
   OPT	Source	westra_passes
   LABEL	113742412,56332939 L H
   DATA	113737849,56334108
-OBJECT	0x6703 Великий Кормчий
-  OPT	Angle	-32
-  OPT	Source	westra_passes
-  LABEL	113762778,56517160 L H
-  DATA	113759179,56517716
 OBJECT	0x6703 Гений Чучхе
   OPT	Angle	153
   OPT	Source	westra_passes
@@ -1106,11 +1156,6 @@ OBJECT	0x6703 Долгий
   OPT	Source	westra_passes
   LABEL	113663136,56647094 R H
   DATA	113665454,56650487
-OBJECT	0x6703 Любимых Женщин
-  OPT	Angle	172
-  OPT	Source	westra_passes
-  LABEL	113527902,56426602 L H
-  DATA	113529076,56423980
 OBJECT	0x6703 Муйских Слонов
   OPT	Angle	104
   OPT	Source	westra_passes
