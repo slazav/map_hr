@@ -8,7 +8,7 @@ sync:
 	# ???
 
 img:
-	gmt -j -v -m "SLAZAV-1" -o ${IMG_NAME} OUT/*.img /usr/share/mapsoft/slazav.typ
+	gmt -j -v -m "SLAZAV-HR" -f 779,2 -o ${IMG_NAME} OUT/*.img /usr/share/mapsoft/slazav.typ
 	mv -f ${IMG_NAME} /home/sla/CH/data/maps/
 	sed -e "/${IMG_NAME}/s/[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}/$(date +%F)/"\
 	  -i /home/sla/CH/data/maps/index.m4i

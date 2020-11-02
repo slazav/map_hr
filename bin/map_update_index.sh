@@ -119,6 +119,6 @@ EOF
 mapsoft_convert $maps -o "$xml"
 
 # make img file
-gmt -j -v -m "slazav-$base" -o $img $imgs /usr/share/mapsoft/slazav.typ
+gmt -j -v -m "slazav-$base" -f 779,3 -o $img $imgs /usr/share/mapsoft/slazav.typ
 
 cd -
