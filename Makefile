@@ -1,26 +1,71 @@
 ###############################
 # 2020-10-31, new rendering system
 
-VDIR  = vmap
-ODIR  = OUT
-TDIR = tiles
-DBDIR = mapdb
-CFDIR = conf
-DFDIR = diff
+VDIR  := vmap
+ODIR  := OUT
+TDIR  := TILES
+DBDIR := mapdb
+CFDIR := conf
+DFDIR := diff
 
-MS2MAPDB = ms2mapdb
+MS2MAPDB := /home/sla/mapsoft2/programs/ms2mapdb/ms2mapdb
+jpeg_scale:=0.2
+
+
+# Sources, individual maps
 #VMAP = $(VDIR)/j42-043.vmap
 #VMAP = $(wildcard $(VDIR)/j42-*.vmap)
 VMAP = $(wildcard $(VDIR)/*.vmap)
 
-# What do we want to generate
+# What do we want to generate, individual maps
 PNG = $(patsubst $(VDIR)/%.vmap, $(ODIR)/%.png,     $(VMAP))
 JPG = $(patsubst $(VDIR)/%.vmap, $(ODIR)/%.jpg,     $(VMAP))
 MPZ = $(patsubst $(VDIR)/%.vmap, $(ODIR)/%.mp.zip,  $(VMAP))
 IMG = $(patsubst $(VDIR)/%.vmap, $(ODIR)/%.img,     $(VMAP))
+HTM = $(patsubst $(VDIR)/%.vmap, $(ODIR)/%.htm,     $(VMAP))
 MDB = $(patsubst $(VDIR)/%.vmap, $(DBDIR)/%,        $(VMAP))
 
-all: $(PNG) $(MPZ) $(IMG)
+# Map lists
+REGIONS := kav fan pam tsh zab saj nep put ura sun chi
+
+REG_IMG := $(patsubst %, $(ODIR)/all_%.img, $(REGIONS))
+REG_HTM := $(patsubst %, $(ODIR)/all_%.htm, $(REGIONS))
+REG_JPG := $(patsubst %, $(ODIR)/all_%.jpg, $(REGIONS))
+
+all: htm reg_htm
+htm: $(HTM)
+png: $(PNG)
+jpg: $(JPG)
+img: $(IMG)
+
+# Note that REG_* files themselves do not have dependencies on
+# individual maps yet. Here I put "strong" dependencies.
+reg_htm: $(HTM) $(REG_HTM) reg_jpg reg_img
+reg_img: $(IMG) $(REG_IMG)
+reg_jpg: $(JPG) $(REG_JPG)
+
+##################################################
+# Colormap.
+# Below there is a rule for generating colormap from one of
+# the maps. The map should contain all colors which can appear.
+# I will now use old colormap instead.
+
+# generate colormap from a single map 
+#CMAP = $(ODIR)/cmap.png
+#CMAP_NAME = n49-032
+#$(CMAP): $(DBDIR)/$(CMAP_NAME)
+#	$(MS2MAPDB) render $<\
+#	  --out tmp_cmap.png --config $(CFDIR)/render.cfg\
+#	  --define "{\"nom_name\":\"$(CMAP_NAME)\", \"hr\":\"1\"}"\
+#	  --mkref nom --name $(CMAP_NAME) --dpi 200\
+#	  --cmap_color 255 --cmap_save $@ --cmap_add 0\
+#	  --png_format pal
+#	rm -f tmp_cmap.png
+
+CMAP = $(CFDIR)/cmap.png
+
+##################################################
+# Rules for making individual maps
 
 # create mapdb from vmap
 $(DBDIR)/%: $(VDIR)/%.vmap
@@ -28,38 +73,22 @@ $(DBDIR)/%: $(VDIR)/%.vmap
 	$(MS2MAPDB) create $@
 	$(MS2MAPDB) import_vmap $@ $< --config $(CFDIR)/import_vmap.cfg
 
-# generate colormap from a single map 
-CMAP = $(ODIR)/cmap.png
-$(CMAP): $(DBDIR)/j42-040.3x3
-	name=`basename $<`;\
-	$(MS2MAPDB) render $<\
-	  --out tmp_cmap.png --config $(CFDIR)/render.cfg\
-	  --define "{\"nom_name\":\"$$name\", \"hr\":\"1\"}"\
-	  --cmap_color 255 --cmap_save $@ --cmap_add 0\
-	  --png_format pal;\
-	rm -f tmp_cmap.png
-
 # generate PNG image + map, make diff files
 $(ODIR)/%.png: $(DBDIR)/% $(CMAP) $(CFDIR)/render.cfg
-	name=`basename $<`;\
-	date=`date +"%Y-%m-%d"`;\
-	[ -s "$@" ] && convert $@ -scale 50% "$(DFDIR)/$${name}_o.png" ||:;\
-	\
+	[ -s "$@" ] && convert $@ -scale 50% "$(DFDIR)/$*_o.png" ||:
 	$(MS2MAPDB) render $< --out $@ --config $(CFDIR)/render.cfg\
-	 --define "{\"nom_name\":\"$$name\", \"hr\":\"1\"}"\
-	 --mkref nom --name $$name --dpi 200 --margins 10 --top_margin 30\
-	 --title "$$name   /$$date/" --title_size 20\
-	 --cmap_load $(CMAP) --png_format pal --map $(ODIR)/$$name.map;\
-	\
-	convert $@  -scale 50% "$(DFDIR)/$${name}_n.png";\
-	compare -matte "$(DFDIR)/$${name}_o.png" "$(DFDIR)/$${name}_n.png"\
-	  "PNG8:$(DFDIR)/$${name}_d.png" ||:
+	 --define "{\"nom_name\":\"$*\", \"hr\":\"1\"}"\
+	 --mkref nom --name $* --dpi 200 --margins 10 --top_margin 30\
+	 --title "$*   /$$(date +"%Y-%m-%d")/" --title_size 20\
+	 --cmap_load $(CMAP) --png_format pal --map $(ODIR)/$*.map
+	convert $@  -scale 50% "$(DFDIR)/$*_n.png"
+	compare -matte "$(DFDIR)/$*_o.png" "$(DFDIR)/$*_n.png"\
+	  "PNG8:$(DFDIR)/$*_d.png" ||:
 
 # generate MP. ID should be unique, 8 decimal digits
 $(ODIR)/%.mp: $(DBDIR)/% $(CFDIR)/export_mp.cfg
-	name=`basename $<`;\
-	id=`( echo "ibase=16"; echo Makefile | md5sum | head -c6 | tr a-z A-Z; echo ) | bc`;\
-	ms2mapdb export_mp $< $@ --name "$$name" --id "$$id"
+	id=`( echo "ibase=16"; echo $* | md5sum | head -c6 | tr a-z A-Z; echo ) | bc`;\
+	ms2mapdb export_mp $< $@ --name "$*" --id "$$id"
 
 # generate IMG
 $(ODIR)/%.img: $(ODIR)/%.mp
@@ -75,13 +104,11 @@ $(ODIR)/%.jpg: $(ODIR)/%.png
 
 # generate HTML
 $(ODIR)/%.htm: $(ODIR)/%.png  $(ODIR)/%.img  $(ODIR)/%.mp.zip $(ODIR)/%.jpg
-	name=`basename $< .png`;\
 	date=`date +"%Y-%m-%d"`;\
-	sed "s|((NAME))|$$name|g;s|((DATE))|$$date|g" $(CFDIR)/map.htm > $@
+	sed "s|((NAME))|$*|g;s|((DATE))|$$date|g" $(CFDIR)/map.htm > $@
 
 ##################################################
-
-# Generate tiles.
+# Rules for making tiles.
 # - process all mapdb folders newer then tstamp in tiles/
 # - render with --add switch: add information to existing tiles
 # - render with --tmap_scale 1: rescale larger tiles to 
@@ -92,6 +119,7 @@ $(ODIR)/%.htm: $(ODIR)/%.png  $(ODIR)/%.img  $(ODIR)/%.mp.zip $(ODIR)/%.jpg
 # recreated from scratch.
 TSTAMP1=$(TDIR)/tstamp1
 $(TSTAMP1): $(CFDIR)/render.cfg $(CFDIR)/border.gpx $(CMAP)
+	mkdir -p $(TDIR)
 	rm -f $(TDIR)/*.png $(TSTAMP2)
 	touch $(TSTAMP1)
 
@@ -103,60 +131,52 @@ TSTAMP2=$(TDIR)/tstamp2
 tiles: $(MDB) $(TSTAMP1)
 	for n in $(MDB); do \
 	[ "$$n/objects.db" -nt  "$(TSTAMP2)" ] || continue;\
-	name=`basename $$n .png`;\
+	echo "$$n";\
+	name=`basename $$n`;\
 	$(MS2MAPDB) render $$n --config $(CFDIR)/render.cfg\
 	  --define "{\"nom_name\":\"$$name\", \"hr\":\"1\", \"border_style\":\"none\"}"\
-	  --tmap --add --out "tiles/{x}-{y}-{z}.png" --zmin 7 --zmax 13\
+	  --tmap --add --out "$(TDIR)/{x}-{y}-{z}.png" --zmin 7 --zmax 13\
 	  --bgcolor 0 --png_format pal --cmap_load $(CMAP)\
 	  --border_file $(CFDIR)/border.gpx\
 	  --tmap_scale 1;\
 	$(MS2MAPDB) render $$n --config $(CFDIR)/render.cfg\
 	  --define "{\"nom_name\":\"$$name\", \"hr\":\"1\", \"border_style\":\"none\"}"\
-	  --tmap --add --out "tiles/{x}-{y}-{z}.png" --zmin 0 --zmax 6\
+	  --tmap --add --out "$(TDIR)/{x}-{y}-{z}.png" --zmin 0 --zmax 6\
 	  --bgcolor 0 --png_format pal --cmap_load $(CMAP)\
 	  --border_file $(CFDIR)/border.gpx\
-	  --tmap_scale 1;\
+	  --tmap_scale 1 --mapdb_minsc 1;\
 	done
 	touch $(TSTAMP2)
 
 ##################################################
-# old Makefile
+# Rules for making map lists.
+# Still uses mapsoft_convert to work with multi-map files.
 
-in:
-	. ./settings.sh; make_in.sh
+# calculate map list for each region
+$(ODIR)/all_%.img $(ODIR)/all_%.jpg $(ODIR)/all_%.htm:\
+   VMAP_LIST=$(shell $(CFDIR)/get_map_list $@ vmap)
 
-IMG_NAME=hr.img
-img:
-	gmt -j -v -m "SLAZAV-HR" -f 779,2 -o ${IMG_NAME} OUT/*.img /usr/share/mapsoft/slazav.typ
-	mv -f ${IMG_NAME} /home/sla/CH/data/maps/
-	sed -e "/${IMG_NAME}/s/[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}/$(date +%F)/"\
-	  -i /home/sla/CH/data/maps/index.m4i
+# rule for making img files
+$(ODIR)/all_%.img:
+	img="$(patsubst $(VDIR)/%.vmap, $(ODIR)/%.img, $(VMAP_LIST))";\
+	gmt -j -v -m "slazav-$base" -f 779,3 -o $@ $$img conf/slazav.typ
 
-index: index_fan index_pam index_zab index_saj index_tsh index_kav index_nep index_put\
-  index_ura index_sun index_chi
+# rule for making index picture  (OLD MAPSOFT)
+$(ODIR)/all_%.htm:
+	maps="$(patsubst $(VDIR)/%.vmap, $(ODIR)/%.map, $(VMAP_LIST))";\
+	tmp="$$(mktemp -u tmp_XXXXXX)";\
+	mapsoft_convert $$maps --rescale_maps=$(jpeg_scale) -o "$$tmp.xml";\
+	sed -i -e 's/.png/.jpg/g' "$$tmp.xml";\
+	mapsoft_convert "$$tmp.xml" -o "$(ODIR)/all_$*.jpg"\
+	    --map_show_brd --htm="$$tmp.htm" --mag 0.1;\
+	$(CFDIR)/make_html_index "$*" "$$tmp.htm" "$(ODIR)" > "$@";\
+	rm -f $$tmp.{htm,xml}
 
-index_kav:
-	. bin/map_update_index.sh 420000x210000+8080000+4685000 kav
-index_fan:
-	. bin/map_update_index.sh 320000x200000+12360000+4240000 fan
-index_pam:
-	. bin/map_update_index.sh 250000x350000+13180000+4050000 pam
-index_tsh:
-	. bin/map_update_index.sh 150000x130000+14240000+4610000 tsh
-index_zab:
-	. bin/map_update_index.sh 420000x320000+19310000+6020000 zab
-index_saj:
-	. bin/map_update_index.sh 390000x480000+17260000+5560000 saj
-index_nep:
-	. bin/map_update_index.sh 700000x350000+14240000+3120000 nep
-index_put:
-	. bin/map_update_index.sh 90000x160000+16415000+7615000 put
-index_ura:
-	. bin/map_update_index.sh 120000x100000+10580000+7160000 ura
-index_sun:
-	. bin/map_update_index.sh 300000x200000+24380000+6835000 sun
-index_chi:
-	. bin/map_update_index.sh 180000x280000+48650000-4980000 chi
-update_passes:
-	map_wp_upd_nom vmap/*.vmap
 
+##################################################
+#IMG_NAME=hr.img
+#img:
+#	gmt -j -v -m "SLAZAV-HR" -f 779,2 -o ${IMG_NAME} OUT/*.img /usr/share/mapsoft/slazav.typ
+#	mv -f ${IMG_NAME} /home/sla/CH/data/maps/
+#	sed -e "/${IMG_NAME}/s/[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}/$(date +%F)/"\
+#	  -i /home/sla/CH/data/maps/index.m4i

@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<svg	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="256px" height="128px"
+	viewBox="0 -45 90 45">
+<g fill="none">
+<rect x="0" y="-45" width="90" height="45" fill="#ffffff"/>
+<polygon points=" 90,-45 90,-38 60,-23 90,-8 90,0 75,0 45,-15 15,0 0,0 0,-8 30,-23 0,-38 0,-45
+ 15,-45 45,-30 75,-45" fill="#54c0ee"/>
+</g>
+</svg>
