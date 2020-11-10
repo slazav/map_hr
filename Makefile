@@ -32,7 +32,7 @@ REG_IMG := $(patsubst %, $(ODIR)/all_%.img, $(REGIONS))
 REG_HTM := $(patsubst %, $(ODIR)/all_%.htm, $(REGIONS))
 REG_JPG := $(patsubst %, $(ODIR)/all_%.jpg, $(REGIONS))
 
-all: htm reg_htm
+all: directories htm reg_htm
 htm: $(HTM)
 png: $(PNG)
 jpg: $(JPG)
@@ -43,6 +43,14 @@ img: $(IMG)
 reg_htm: $(HTM) $(REG_HTM) reg_jpg reg_img
 reg_img: $(IMG) $(REG_IMG)
 reg_jpg: $(JPG) $(REG_JPG)
+
+##################################################
+# Directories
+.PHONY: directories
+directories: $(ODIR) $(TDIR) $(DFDIR) $(DBDIR)
+
+$(ODIR) $(TDIR) $(DFDIR) $(DBDIR):
+	mkdir -p $@
 
 ##################################################
 # Colormap.
