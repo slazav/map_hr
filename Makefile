@@ -32,7 +32,7 @@ REG_IMG := $(patsubst %, $(ODIR)/all_%.img, $(REGIONS))
 REG_HTM := $(patsubst %, $(ODIR)/all_%.htm, $(REGIONS))
 REG_JPG := $(patsubst %, $(ODIR)/all_%.jpg, $(REGIONS))
 
-all: directories htm reg_htm
+all: directories htm reg_htm tiles
 htm: $(HTM)
 png: $(PNG)
 jpg: $(JPG)
