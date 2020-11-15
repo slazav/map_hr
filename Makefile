@@ -1,6 +1,7 @@
 ###############################
 # 2020-10-31, new rendering system
 
+### Directories:
 VDIR  := vmap
 ODIR  := OUT
 TDIR  := TILES
@@ -8,7 +9,17 @@ DBDIR := mapdb
 CFDIR := conf
 DFDIR := diff
 
-MS2MAPDB := /home/sla/mapsoft2/programs/ms2mapdb/ms2mapdb
+
+### Programs:
+
+# v1.4 should be enough
+MS2MAPDB := ms2mapdb
+
+# v1.4+ (e06178d58341b8879188877777c791cecdd814ee)
+MS2CONV := ms2conv
+GMT     := gmt
+
+# scale for jpeg preview images:
 jpeg_scale:=0.2
 
 
@@ -158,7 +169,6 @@ tiles: $(MDB) $(TSTAMP1)
 
 ##################################################
 # Rules for making map lists.
-# Still uses mapsoft_convert to work with multi-map files.
 
 # calculate map list for each region
 $(ODIR)/all_%.img $(ODIR)/all_%.jpg $(ODIR)/all_%.htm:\
@@ -167,24 +177,24 @@ $(ODIR)/all_%.img $(ODIR)/all_%.jpg $(ODIR)/all_%.htm:\
 # rule for making img files
 $(ODIR)/all_%.img:
 	img="$(patsubst $(VDIR)/%.vmap, $(ODIR)/%.img, $(VMAP_LIST))";\
-	gmt -j -v -m "slazav-$base" -f 779,3 -o $@ $$img conf/slazav.typ
+	$(GMT) -j -v -m "slazav-$base" -f 779,3 -o $@ $$img conf/slazav.typ
 
-# rule for making index picture  (OLD MAPSOFT)
+# rule for making index html+image
 $(ODIR)/all_%.htm:
 	maps="$(patsubst $(VDIR)/%.vmap, $(ODIR)/%.map, $(VMAP_LIST))";\
 	tmp="$$(mktemp -u tmp_XXXXXX)";\
-	mapsoft_convert $$maps --rescale_maps=$(jpeg_scale) -o "$$tmp.xml";\
-	sed -i -e 's/.png/.jpg/g' "$$tmp.xml";\
-	mapsoft_convert "$$tmp.xml" -o "$(ODIR)/all_$*.jpg"\
-	    --map_show_brd --htm="$$tmp.htm" --mag 0.1;\
+	$(MS2CONV) $$maps --rescale_maps=$(jpeg_scale) -o "$$tmp.json";\
+	sed -i -e 's/\.png/\.jpg/g' "$$tmp.json";\
+	$(MS2CONV) "$$tmp.json" -o "$(ODIR)/all_$*.jpg"\
+	    --map_draw_brd 0xFFFF0000 --map_max_sc 100 --htm "$$tmp.htm" --mag 0.1;\
 	$(CFDIR)/make_html_index "$*" "$$tmp.htm" "$(ODIR)" > "$@";\
-	rm -f $$tmp.{htm,xml}
+	rm -f $$tmp.{htm,json}
 
 
 ##################################################
 #IMG_NAME=hr.img
 #img:
-#	gmt -j -v -m "SLAZAV-HR" -f 779,2 -o ${IMG_NAME} OUT/*.img /usr/share/mapsoft/slazav.typ
+#	$(GMT) -j -v -m "SLAZAV-HR" -f 779,2 -o ${IMG_NAME} OUT/*.img /usr/share/mapsoft/slazav.typ
 #	mv -f ${IMG_NAME} /home/sla/CH/data/maps/
 #	sed -e "/${IMG_NAME}/s/[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}/$(date +%F)/"\
 #	  -i /home/sla/CH/data/maps/index.m4i
