@@ -43,11 +43,11 @@ REG_IMG := $(patsubst %, $(ODIR)/all_%.img, $(REGIONS))
 REG_HTM := $(patsubst %, $(ODIR)/all_%.htm, $(REGIONS))
 REG_JPG := $(patsubst %, $(ODIR)/all_%.jpg, $(REGIONS))
 
-all: directories htm reg_htm tiles
-htm: $(HTM)
-png: $(PNG)
-jpg: $(JPG)
-img: $(IMG)
+all: htm reg_htm tiles
+htm: directories $(HTM)
+png: directories $(PNG)
+jpg: directories $(JPG)
+img: directories $(IMG)
 
 # Note that REG_* files themselves do not have dependencies on
 # individual maps yet. Here I put "strong" dependencies.
@@ -180,7 +180,7 @@ $(ODIR)/all_%.img:
 	$(GMT) -j -v -m "slazav-$base" -f 779,3 -o $@ $$img conf/slazav.typ
 
 # rule for making index html+image
-$(ODIR)/all_%.htm:
+$(ODIR)/all_%.htm $(ODIR)/all_%.jpg:
 	maps="$(patsubst $(VDIR)/%.vmap, $(ODIR)/%.map, $(VMAP_LIST))";\
 	tmp="$$(mktemp -u tmp_XXXXXX)";\
 	$(MS2CONV) $$maps --rescale_maps=$(jpeg_scale) -o "$$tmp.json";\
