@@ -180,7 +180,8 @@ $(ODIR)/all_%.img:
 	$(GMT) -j -v -m "slazav-$base" -f 779,3 -o $@ $$img conf/slazav.typ
 
 # rule for making index html+image
-$(ODIR)/all_%.htm $(ODIR)/all_%.jpg:
+$(ODIR)/all_%.jpg: $(ODIR)/all_%.htm
+$(ODIR)/all_%.htm:
 	maps="$(patsubst $(VDIR)/%.vmap, $(ODIR)/%.map, $(VMAP_LIST))";\
 	tmp="$$(mktemp -u tmp_XXXXXX)";\
 	$(MS2CONV) $$maps --rescale_maps=$(jpeg_scale) -o "$$tmp.json";\
