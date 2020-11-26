@@ -43,7 +43,7 @@ REG_IMG := $(patsubst %, $(ODIR)/all_%.img, $(REGIONS))
 REG_HTM := $(patsubst %, $(ODIR)/all_%.htm, $(REGIONS))
 REG_JPG := $(patsubst %, $(ODIR)/all_%.jpg, $(REGIONS))
 
-all: htm reg_htm tiles
+all: htm reg_htm tiles $(TDIR)/tile.list
 htm: directories $(HTM)
 png: directories $(PNG)
 jpg: directories $(JPG)
@@ -167,6 +167,10 @@ tiles: $(MDB) $(TSTAMP1)
 	done
 	touch $(TSTAMP2)
 
+$(TDIR)/tile.list: tiles
+	find TILES/ -name '*.png' | xargs md5sum | sed 's| TILES/| |' > $@
+
+#
 ##################################################
 # Rules for making map lists.
 
