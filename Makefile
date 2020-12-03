@@ -21,6 +21,8 @@ GMT     := gmt
 
 # scale for jpeg preview images:
 jpeg_scale:=0.2
+# scale for index image (in addition to jpeg_scale)
+index_scale:=0.05
 
 
 # Sources, individual maps
@@ -193,7 +195,7 @@ $(ODIR)/all_%.htm:
 	$(MS2CONV) $$maps --rescale_maps=$(jpeg_scale) -o "$$tmp.json";\
 	sed -i -e 's/\.png/\.jpg/g' "$$tmp.json";\
 	$(MS2CONV) "$$tmp.json" -o "$(ODIR)/all_$*.jpg"\
-	    --map_draw_brd 0xFFFF0000 --map_max_sc 100 --htm "$$tmp.htm" --mag 0.1;\
+	    --map_draw_brd 0xFFFF0000 --map_max_sc 100 --htm "$$tmp.htm" --mag $(index_scale);\
 	$(CFDIR)/make_html_index "$*" "$$tmp.htm" "$(ODIR)" > "$@";\
 	rm -f $$tmp.{htm,json}
 
