@@ -1,14 +1,14 @@
 #!/bin/sh -e
 
-IN_DIR="${IN_DIR:-IN}"
-VMAP_DIR="${VMAP_DIR:-vmap}"
-SCALE="${SCALE:-50000}"
+IN_DIR=IN
+VMAP_DIR=vmap
+SCALE=100000
 FILTER="${FILTER:-}"
 
 mkdir -p fig
 
 for i in $IN_DIR/*.fig $IN_DIR/*.mp; do
-  [ -f $i ] || continue
+  [ -f "$i" ] || continue
   name=${i%.*}
   name=${name##*/}
   ext=${i##*.}
@@ -50,7 +50,7 @@ for i in $IN_DIR/*.fig $IN_DIR/*.mp; do
     fi
   fi
 
-  range=$(sed -ne "s/$name\s\+//p" maps.txt)
+  range=$(sed -ne "s/$name\s\+//p" maps.txt ||:)
   [ -n "$range" ] || range="$name"
 
   # crop and put to vmap!
