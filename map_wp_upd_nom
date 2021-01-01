@@ -36,10 +36,7 @@ for i in "$@"; do
   # download
   wget "$(ll2wp "$g")" -O - > "wpasses/${base}_wp.kml"
 
-
   mapsoft_wp_parse "wpasses/${base}_wp.kml"
-
-  cp -f -- "$i" "$i.bak"
 
   mapsoft_vmap -v \
     wpasses/${base}_wp.mp --set_source westra_passes\
