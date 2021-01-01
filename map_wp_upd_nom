@@ -1,0 +1,31 @@
+#!/bin/sh -efu
+
+. mapsoft_wp.sh
+
+# map_wp_upd_nom -- update passes in nom maps
+# example: map_wp_upd_nom j43-061.vmap j43-062.vmap
+
+# passes data is put into ./wpasses/ dir
+
+mkdir -p -- wpasses
+for i in "$@"; do
+  base=$(basename ${i%.*})
+  echo $i
+
+  download_ll_wp "$(nom2ll "$base")" "wpasses/$base"
+
+  cp -f -- "$i" "$i.bak"
+
+  mapsoft_vmap -v \
+    wpasses/${base}_wp.mp --set_source westra_passes\
+       --range_nom "$base" --range_action="select"\
+    "$i" --split_labels --skip_source westra_passes\
+    -o "$i"
+
+  if [ -f "wpasses/${base}_wp.sed" ]; then
+    sed -i --file "wpasses/${base}_wp.sed" "$i"
+  fi
+
+  rm -f -- "wpasses/${base}_wp.mp"
+
+done
