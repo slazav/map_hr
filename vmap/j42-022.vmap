@@ -1203,22 +1203,22 @@ OBJECT	0x6703 Алимайдан
   OPT	Source	westra_passes
   LABEL	70838597,39625563 L H
   DATA	70837714,39628750
-OBJECT	0x6703 Армизан (Кульбаши)
-  OPT	Angle	0
-  OPT	Source	westra_passes
-  LABEL	70864811,39616679 L H
-  DATA	70861978,39618144
-OBJECT	0x6703 Армизан (Обходной)
+OBJECT	0x6703 Армизан
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	70858236,39627253 L H
   DATA	70855069,39628628
+OBJECT	0x6703 Армизан
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	70864811,39616679 L H
+  DATA	70861978,39618144
 OBJECT	0x6703 Ахун Ю.
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	70675518,39464854 L H
   DATA	70672154,39465010
-OBJECT	0x6703 Боковой (Нооджайляу)
+OBJECT	0x6703 Боковой
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	70817415,39619271 L H
@@ -1333,7 +1333,7 @@ OBJECT	0x6704 Игла-Матча
   OPT	Source	westra_passes
   LABEL	70706247,39533484 L H
   DATA	70703381,39533867
-OBJECT	0x6704 Карузо (Кызылгурум)
+OBJECT	0x6704 Карузо
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	70946161,39467970 L H
@@ -1413,7 +1413,7 @@ OBJECT	0x6705 Атджайляу З.
   OPT	Source	westra_passes
   LABEL	70818045,39626527 L H
   DATA	70820381,39623972
-OBJECT	0x6705 Довгулевич (Райгородского)
+OBJECT	0x6705 Довгулевич
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	70719265,39629390 L H

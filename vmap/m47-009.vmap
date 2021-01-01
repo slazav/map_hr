@@ -575,11 +575,6 @@ OBJECT	0x6700 Нарын-Даба
   OPT	Source	westra_passes
   LABEL	100091904,51757884 L H
   DATA	100106183,51754136
-OBJECT	0x6700 ППОС ИРНИТУ
-  OPT	Angle	67
-  OPT	Source	westra_passes
-  LABEL	100374866,51747485 L H
-  DATA	100373126,51747147
 OBJECT	0x6700 Уха-Даба
   OPT	Angle	0
   OPT	Source	westra_passes

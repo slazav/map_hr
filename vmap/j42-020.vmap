@@ -1025,11 +1025,21 @@ OBJECT	0x6700 Падаск
   OPT	Source	westra_passes
   LABEL	69568253,39358741 L H
   DATA	69564789,39360423
+OBJECT	0x6701 Ашат
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	69933630,39626754 L H
+  DATA	69932806,39626119
 OBJECT	0x6701 Кырк-Булак
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69799152,39572200 L H
   DATA	69796599,39572302
+OBJECT	0x6701 Урям проходной
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	69998075,39637529 L H
+  DATA	69997250,39636894
 OBJECT	0x6701 Хоппе Ю.
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1040,6 +1050,16 @@ OBJECT	0x6701 Янги-Сабах
   OPT	Source	westra_passes
   LABEL	69860223,39536613 L H
   DATA	69860300,39534333
+OBJECT	0x6702 Ближний
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	69716395,39640545 L H
+  DATA	69715570,39639910
+OBJECT	0x6702 Курчавый
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	69997164,39592375 L H
+  DATA	69996340,39591740
 OBJECT	0x6702 Охотничий
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1085,16 +1105,31 @@ OBJECT	0x6702 Ярм-Диспут
   OPT	Source	westra_passes
   LABEL	69983059,39559561 L H
   DATA	69982065,39556969
+OBJECT	0x6703 Башкирских медиков
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	69942663,39615877 L H
+  DATA	69941839,39615242
 OBJECT	0x6703 Мадрушкент
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69695440,39549726 L H
   DATA	69692739,39549216
+OBJECT	0x6703 Охотников
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	69696764,39607035 L H
+  DATA	69695940,39606400
 OBJECT	0x6703 Сабах Переметный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69699975,39558507 L H
   DATA	69700869,39556720
+OBJECT	0x6703 Саркент Центральный
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	69712984,39627665 L H
+  DATA	69712160,39627030
 OBJECT	0x6704 Граненый
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1145,6 +1180,11 @@ OBJECT	0x6706 Ашатская щель
   OPT	Source	westra_passes
   LABEL	69935489,39579931 L H
   DATA	69936017,39582817
+OBJECT	0x6706 Парус Ашатский
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	69945477,39606113 L H
+  DATA	69944653,39605478
 OBJECT	0x6706 Урем
   OPT	Angle	0
   OPT	Source	westra_passes

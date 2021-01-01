@@ -445,6 +445,10 @@ OBJECT	0xd00 6732
 OBJECT	0xd00 6898
   LABEL	72865025,39347386 L H
   DATA	72864144,39346669
+OBJECT	0x1100 4696 Пик Вячеслава Львова
+  OPT	Source	westra_passes
+  LABEL	72868505,39431068 L H
+  DATA	72867683,39430433
 OBJECT	0x1100 5083 Узловая
   OPT	Source	westra_passes
   LABEL	72533880,39382471 L H
@@ -474,6 +478,11 @@ OBJECT	0x6700 Кунгыр
   OPT	Source	westra_passes
   LABEL	72678574,39446054 L H
   DATA	72686861,39450694
+OBJECT	0x6700 Сухой
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72505325,39663385 L H
+  DATA	72504500,39662750
 OBJECT	0x6701 Охотничий
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -504,7 +513,12 @@ OBJECT	0x6703 Красина
   OPT	Source	westra_passes
   LABEL	72729128,39378980 L H
   DATA	72730600,39376550
-OBJECT	0x6704 5100 (Красный)
+OBJECT	0x6703 Ташкюнгей
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72853592,39423345 L H
+  DATA	72852770,39422710
+OBJECT	0x6704 5100
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72648033,39394063 L H
@@ -574,6 +588,11 @@ OBJECT	0x6705 Лыбидь
   OPT	Source	westra_passes
   LABEL	72506509,39373961 L H
   DATA	72505617,39377117
+OBJECT	0x6705 Спартак
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72939755,39372435 L H
+  DATA	72938933,39371800
 OBJECT	0x6705 Сынарджар
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -614,6 +633,11 @@ OBJECT	0x6706 Маршала Жукова
   OPT	Source	westra_passes
   LABEL	72881920,39336826 L H
   DATA	72881106,39336200
+OBJECT	0x6706 Раздельный
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72838155,39360385 L H
+  DATA	72837333,39359750
 OBJECT	0x6706 Саукдара М.
   OPT	Angle	0
   OPT	Source	westra_passes

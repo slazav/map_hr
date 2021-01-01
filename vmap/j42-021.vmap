@@ -1219,6 +1219,18 @@ OBJECT	0xd00 5446
 OBJECT	0xd00 5492
   LABEL	70221641,39566459 L H
   DATA	70220828,39565827
+OBJECT	0x1100 3929 Домашняя
+  OPT	Source	westra_passes
+  LABEL	70076233,39626893 L H
+  DATA	70075408,39626258
+OBJECT	0x1100 4355 Ходжаймусо
+  OPT	Source	westra_passes
+  LABEL	70279072,39386345 L H
+  DATA	70278250,39385710
+OBJECT	0x1100 4866 Бадыгина
+  OPT	Source	westra_passes
+  LABEL	70112244,39628174 L H
+  DATA	70111419,39627539
 OBJECT	0x1100 5309 Карасу
   OPT	Source	westra_passes
   LABEL	70204386,39597685 L H
@@ -1235,6 +1247,11 @@ OBJECT	0x1100 5509 пик Пирамидальный (по западному с
   OPT	Source	westra_passes
   LABEL	70220691,39565348 L H
   DATA	70219858,39564722
+OBJECT	0x6700 Кара-суу
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	70252145,39661775 L H
+  DATA	70251320,39661140
 OBJECT	0x6700 Проходной
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1250,6 +1267,11 @@ OBJECT	0x6701 Кара-Урям
   OPT	Source	westra_passes
   LABEL	70004342,39620659 L H
   DATA	70001431,39621019
+OBJECT	0x6701 Ходжаймусе
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	70312722,39388865 L H
+  DATA	70311900,39388230
 OBJECT	0x6702 Аксу-Рама
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1265,21 +1287,56 @@ OBJECT	0x6702 Бо-Бо
   OPT	Source	westra_passes
   LABEL	70093085,39375011 L H
   DATA	70089908,39375047
+OBJECT	0x6702 Кашкасу
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	70131580,39644988 L H
+  DATA	70130756,39644353
 OBJECT	0x6702 Мулломахмат траверсный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	70416785,39384398 L H
   DATA	70414186,39385283
+OBJECT	0x6702 Обзорный
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	70093435,39592041 L H
+  DATA	70092611,39591406
 OBJECT	0x6702 Оловянный
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	70362998,39600400 L H
   DATA	70360106,39600536
+OBJECT	0x6702 Панорамный
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	70429905,39661065 L H
+  DATA	70429080,39660430
+OBJECT	0x6702 Солнечный II
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	70119335,39634905 L H
+  DATA	70118510,39634270
+OBJECT	0x6702 Средне-Джаупайский
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	70321427,39597332 L H
+  DATA	70320603,39596697
+OBJECT	0x6702 Тамынген-Джаупая
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	70361194,39628221 L H
+  DATA	70360369,39627586
 OBJECT	0x6702 Тро-Блок
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	70127914,39587301 L H
   DATA	70125402,39586568
+OBJECT	0x6702 Черный
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	70417769,39605913 L H
+  DATA	70416944,39605278
 OBJECT	0x6703 Hенастный
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1310,6 +1367,11 @@ OBJECT	0x6703 Джаупая
   OPT	Source	westra_passes
   LABEL	70326943,39565827 L H
   DATA	70328414,39563033
+OBJECT	0x6703 Дружбы народов
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	70327566,39579174 L H
+  DATA	70326742,39578539
 OBJECT	0x6703 Карпинского
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1320,6 +1382,11 @@ OBJECT	0x6703 Короткий
   OPT	Source	westra_passes
   LABEL	70276029,39523901 L H
   DATA	70273272,39524794
+OBJECT	0x6703 Машенька
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	70111064,39583125 L H
+  DATA	70110240,39582490
 OBJECT	0x6703 Москальцева А.В.
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1355,6 +1422,11 @@ OBJECT	0x6703 Санджан
   OPT	Source	westra_passes
   LABEL	70013304,39540894 L H
   DATA	70010278,39541361
+OBJECT	0x6703 Тро
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	70146604,39568265 L H
+  DATA	70145780,39567630
 OBJECT	0x6703 Философский
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1385,7 +1457,7 @@ OBJECT	0x6704 Бухарский
   OPT	Source	westra_passes
   LABEL	70213759,39532573 L H
   DATA	70211410,39533140
-OBJECT	0x6704 Рама В. (Охотников)
+OBJECT	0x6704 Рама В.
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	70429116,39590619 R H
@@ -1490,6 +1562,21 @@ OBJECT	0x6705 Челябинский
   OPT	Source	westra_passes
   LABEL	70207168,39580502 L H
   DATA	70206353,39579875
+OBJECT	0x6706 Блока Западный
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	70103282,39586096 L H
+  DATA	70102458,39585461
+OBJECT	0x6706 Гранитный
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	70423934,39612915 L H
+  DATA	70423110,39612280
+OBJECT	0x6706 Мекка
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	70056713,39571424 L H
+  DATA	70055889,39570789
 OBJECT	0x6706 Полярные Зори
   OPT	Angle	0
   OPT	Source	westra_passes

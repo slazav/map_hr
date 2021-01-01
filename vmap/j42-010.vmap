@@ -914,7 +914,7 @@ OBJECT	0x6700 Курдактыр
   OPT	Source	westra_passes
   LABEL	70764329,39695558 L H
   DATA	70763492,39694914
-OBJECT	0x6700 Чургень (Дунон)
+OBJECT	0x6700 Чургень
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	70669759,39776281 L H
@@ -924,6 +924,11 @@ OBJECT	0x6701 Джиптык
   OPT	Source	westra_passes
   LABEL	70563402,39731466 L H
   DATA	70562566,39730825
+OBJECT	0x6701 Тотен
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	70523286,39782245 L H
+  DATA	70522460,39781610
 OBJECT	0x6702 Бирксу
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -949,6 +954,11 @@ OBJECT	0x6703 50 лет ВЛКСМ
   OPT	Source	westra_passes
   LABEL	70711858,39669142 L H
   DATA	70711033,39668514
+OBJECT	0x6704 Оригинал
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	70743305,39671515 L H
+  DATA	70742480,39670880
 OBJECT	0x6704 Спартак
   OPT	Angle	0
   OPT	Source	westra_passes

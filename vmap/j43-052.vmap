@@ -1312,6 +1312,10 @@ OBJECT	0x1100 5201 Майджилга
   OPT	Source	westra_passes
   LABEL	73862360,38578086 L H
   DATA	73860574,38578347
+OBJECT	0x1100 5490 Зуб Погребецкого
+  OPT	Source	westra_passes
+  LABEL	73573821,38503955 L H
+  DATA	73573010,38503320
 OBJECT	0x1100 5643
   LABEL	73793324,38391441 L H
   DATA	73792498,38390838
@@ -1332,6 +1336,16 @@ OBJECT	0x6700 Акбайтал
   OPT	Source	westra_passes
   LABEL	73596534,38563328 L H
   DATA	73597092,38560897
+OBJECT	0x6701 Взаимопомощи
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	73725350,38407375 L H
+  DATA	73724540,38406740
+OBJECT	0x6701 Погребецкого
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	73580132,38513635 L H
+  DATA	73579320,38513000
 OBJECT	0x6702 Байтал
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -1417,6 +1431,11 @@ OBJECT	0x6705 Кызыл З.
   OPT	Source	westra_passes
   LABEL	73634855,38379912 L H
   DATA	73632647,38378579
+OBJECT	0x6705 Памяти Евгения Говора
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	73541061,38430855 L H
+  DATA	73540250,38430220
 OBJECT	0x6706 Центральный
   OPT	Angle	0
   OPT	Source	westra_passes

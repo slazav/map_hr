@@ -626,6 +626,10 @@ OBJECT	0x1100 5298 пик Архар
   OPT	Source	westra_passes
   LABEL	73332120,39468767 L H
   DATA	73330573,39469954
+OBJECT	0x1100 5335 Коксай
+  OPT	Source	westra_passes
+  LABEL	73254991,39601746 L H
+  DATA	73254167,39601111
 OBJECT	0x1100 5349 Ледяной мыс
   OPT	Source	westra_passes
   LABEL	73066682,39450330 L H
@@ -638,6 +642,10 @@ OBJECT	0x1100 5459 пик Обручева
   OPT	Source	westra_passes
   LABEL	73112604,39464034 L H
   DATA	73111767,39463400
+OBJECT	0x1100 5505
+  OPT	Source	westra_passes
+  LABEL	73451756,39464318 L H
+  DATA	73450933,39463683
 OBJECT	0x1100 5554 пик Советской Латвии
   OPT	Source	westra_passes
   LABEL	73016803,39382898 L H
@@ -689,6 +697,11 @@ OBJECT	0x6702 Приозерный
   OPT	Source	westra_passes
   LABEL	73149402,39473792 L H
   DATA	73146617,39473567
+OBJECT	0x6702 Солнечный
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	73392442,39470441 L H
+  DATA	73391619,39469806
 OBJECT	0x6703 Архар
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -704,6 +717,11 @@ OBJECT	0x6703 Запорожских романтиков
   OPT	Source	westra_passes
   LABEL	73154723,39472285 L H
   DATA	73153900,39471650
+OBJECT	0x6703 Мира Восточный
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	73002722,39438268 L H
+  DATA	73001900,39437633
 OBJECT	0x6703 Мира Западный
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -734,6 +752,11 @@ OBJECT	0x6704 Кичкесу
   OPT	Source	westra_passes
   LABEL	73448814,39475163 L H
   DATA	73446050,39474450
+OBJECT	0x6704 Корженевского Восточный
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	73117972,39389593 L H
+  DATA	73117150,39388958
 OBJECT	0x6704 Михаила Волкова
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -759,6 +782,11 @@ OBJECT	0x6704 Сюрприз
   OPT	Source	westra_passes
   LABEL	73478989,39526985 L H
   DATA	73493717,39527133
+OBJECT	0x6704 Туманный
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	73363601,39512857 L H
+  DATA	73362778,39512222
 OBJECT	0x6704 Туюксу
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -784,6 +812,11 @@ OBJECT	0x6705 Плечо Обручева
   OPT	Source	westra_passes
   LABEL	73112122,39458922 L H
   DATA	73112550,39457217
+OBJECT	0x6705 С/к "Янтарь"
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	73299434,39503691 L H
+  DATA	73298611,39503056
 OBJECT	0x6705 СК "Янтарь"
   OPT	Angle	0
   OPT	Source	westra_passes

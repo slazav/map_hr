@@ -685,6 +685,11 @@ OBJECT	0xd00 5589
 OBJECT	0xd00 5671
   LABEL	72480035,39349031 L H
   DATA	72479142,39348312
+OBJECT	0x6406 Туз
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72163112,39422465 L H
+  DATA	72162290,39421830
 OBJECT	0x6414
   DATA	72011253,39516216
 OBJECT	0x6414
@@ -701,6 +706,11 @@ OBJECT	0x6700 Джангы-Джер
   OPT	Source	westra_passes
   LABEL	72252703,39662183 L H
   DATA	72252500,39659500
+OBJECT	0x6700 Джыланды
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72182802,39459295 L H
+  DATA	72181980,39458660
 OBJECT	0x6700 Карауток
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -711,6 +721,11 @@ OBJECT	0x6700 Кичикбель
   OPT	Source	westra_passes
   LABEL	72172476,39384168 L H
   DATA	72174667,39381333
+OBJECT	0x6700 Сары
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72239454,39614855 L H
+  DATA	72238630,39614220
 OBJECT	0x6700 Улубель
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -736,6 +751,11 @@ OBJECT	0x6701 Шиман
   OPT	Source	westra_passes
   LABEL	72222627,39663789 L H
   DATA	72220667,39663500
+OBJECT	0x6702 Коорганды
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	72038171,39364318 L H
+  DATA	72037350,39363683
 OBJECT	0x6702 Кызылхунгой
   OPT	Angle	0
   OPT	Source	westra_passes
@@ -781,7 +801,7 @@ OBJECT	0x6704 Ортоарык
   OPT	Source	westra_passes
   LABEL	72077325,39351674 L H
   DATA	72076000,39349833
-OBJECT	0x6704 Чакманташ (Ачиксу)
+OBJECT	0x6704 Чакманташ
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	72471313,39379284 L H

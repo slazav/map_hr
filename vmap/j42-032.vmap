@@ -1153,7 +1153,7 @@ OBJECT	0x1100 4637 Барф
 OBJECT	0x1100 4709 Каттабарзанги
   OPT	Source	westra_passes
   LABEL	69645662,39121767 L H
-  DATA	69644820,39121136
+  DATA	69647180,39121800
 OBJECT	0x1100 4816 Волган
   OPT	Source	westra_passes
   LABEL	69697562,39289665 L H
@@ -1161,7 +1161,7 @@ OBJECT	0x1100 4816 Волган
 OBJECT	0x1100 5085 Саманканд
   OPT	Source	westra_passes
   LABEL	69597118,39295647 L H
-  DATA	69596573,39298192
+  DATA	69596410,39298370
 OBJECT	0x1100 Такали
   OPT	Source	westra_passes
   LABEL	69660504,39280072 L H
@@ -1281,7 +1281,7 @@ OBJECT	0x6702 Логичный
   OPT	Source	westra_passes
   LABEL	69687634,39217437 L H
   DATA	69684486,39218409
-OBJECT	0x6702 Оби-Барзанги (Срез Барзанги)
+OBJECT	0x6702 Оби-Барзанги
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69689202,39093171 L H
@@ -1351,7 +1351,7 @@ OBJECT	0x6702 Ханака Вост.
   OPT	Source	westra_passes
   LABEL	69624003,39107911 L H
   DATA	69621216,39108109
-OBJECT	0x6702 Ханака З. (Канак)
+OBJECT	0x6702 Ханака З.
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69615018,39111742 L H
@@ -1371,7 +1371,7 @@ OBJECT	0x6703 Боковой
   OPT	Source	westra_passes
   LABEL	69598620,39278384 L H
   DATA	69596886,39280314
-OBJECT	0x6703 Бугинек(Гориф II)
+OBJECT	0x6703 Бугинек
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69776293,39126436 L H
@@ -1501,7 +1501,7 @@ OBJECT	0x6704 Любимых
   OPT	Source	westra_passes
   LABEL	69515540,39262325 L H
   DATA	69515194,39260871
-OBJECT	0x6704 РГО (Русского географического общества)
+OBJECT	0x6704 РГО
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69516044,39257378 R H
@@ -1556,7 +1556,7 @@ OBJECT	0x6705 Молодость Сибири
   OPT	Source	westra_passes
   LABEL	69573912,39277447 R H
   DATA	69576167,39279444
-OBJECT	0x6705 Олимпийский (Олимп)
+OBJECT	0x6705 Олимпийский
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	69560728,39261716 L H

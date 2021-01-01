@@ -991,7 +991,7 @@ OBJECT	0x6702 Бун-ед
   OPT	Source	westra_passes
   LABEL	71723667,37166785 L H
   DATA	71722870,37166150
-OBJECT	0x6702 Вяз (Дукиль)
+OBJECT	0x6702 Вяз
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71708347,37135475 L H
@@ -1021,7 +1021,7 @@ OBJECT	0x6702 Стартовый
   OPT	Source	westra_passes
   LABEL	71647279,37035768 L H
   DATA	71643636,37036381
-OBJECT	0x6702 Украина (Одиннадцати)
+OBJECT	0x6702 Украина
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71700216,37096545 L H
@@ -1056,7 +1056,7 @@ OBJECT	0x6703 Киевлян
   OPT	Source	westra_passes
   LABEL	71738748,37053592 L H
   DATA	71736294,37053164
-OBJECT	0x6703 Ростоу (Даван)
+OBJECT	0x6703 Ростоу
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71672357,37150575 L H
@@ -1116,7 +1116,7 @@ OBJECT	0x6705 Лукницкого
   OPT	Source	westra_passes
   LABEL	71690420,37065789 L H
   DATA	71687989,37066375
-OBJECT	0x6705 Сюрприз (Спасателей)
+OBJECT	0x6705 Сюрприз
   OPT	Angle	0
   OPT	Source	westra_passes
   LABEL	71698739,37029143 L H

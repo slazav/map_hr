@@ -1,1 +1,2 @@
 # id   lat         lon           alt   title /other title/, cat
+2170   39.6696900   69.6253700  3600  пер. Ясык-Казымык, 1А*

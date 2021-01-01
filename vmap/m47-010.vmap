@@ -575,6 +575,16 @@ OBJECT	0x6406 Бугота-Баян-Гол
   OPT	Source	westra_passes
   LABEL	100660459,51709726 L H
   DATA	100659306,51713074
+OBJECT	0x6700 N 13
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	100777138,51784246 L H
+  DATA	100776111,51783611
+OBJECT	0x6700 N25 (Арасаганшулута)
+  OPT	Angle	0
+  OPT	Source	westra_passes
+  LABEL	100830750,51834802 L H
+  DATA	100829722,51834167
 OBJECT	0x6700 Архаров
   OPT	Angle	109
   OPT	Source	westra_passes
