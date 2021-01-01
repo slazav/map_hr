@@ -1,18 +1,43 @@
 #!/bin/sh -efu
 
-. mapsoft_wp.sh
+# map_wp_upd_nom -- update passes
+# example: map_wp_upd_nom j43-061 j43-062
 
-# map_wp_upd_nom -- update passes in nom maps
-# example: map_wp_upd_nom j43-061.vmap j43-062.vmap
+# VMAP files are taken from ./vmap/ dir
+# Data is stored in ./wpasses/ dir
 
-# passes data is put into ./wpasses/ dir
+##############
+
+# get url for downloading data from westra pass catalog
+# usage:  ll2wp <wgs lonlat geom>
+ll2wp(){
+  local geom="$1"
+
+  echo "$geom" |
+  sed 's/^\[\([0-9\.-]\+\) *, *\([0-9\.-]\+\) *, *\([0-9\.-]\+\) *, *\([0-9\.-]\+\)\]/\1 \2 \3 \4/' |
+  {
+    local x1 x2 y1 y2 dx dy
+    read x1 y1 dx dy
+    x2="$(printf -- "${x1#+} + $dx\n" | bc -l)"
+    y2="$(printf -- "${y1#+} + $dy\n" | bc -l)"
+    printf "http://westra.ru/passes/kml/passes.php?BBOX=%f,%f,%f,%f" $x1 $y1 $x2 $y2
+  }
+}
+
 
 mkdir -p -- wpasses
 for i in "$@"; do
   base=$(basename ${i%.*})
   echo $i
 
-  download_ll_wp "$(nom2ll "$base")" "wpasses/$base"
+  # WGS range
+  g="$(ms2nom --wgs --ext --name "$base")"
+
+  # download
+  wget "$(ll2wp "$g")" -O - > "wpasses/${base}_wp.kml"
+
+
+  mapsoft_wp_parse "wpasses/${base}_wp.kml"
 
   cp -f -- "$i" "$i.bak"
 
