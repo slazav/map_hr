@@ -14,7 +14,23 @@ for name in "$@"; do
   range=$(sed -ne "s/$base\s\+//p" ../maps.txt ||:)
   [ -n "$range" ] || range="$base"
 
+  # convert range to mapsoft1 style.
+  if [ "$range" = "p54-029.4x1" ]; then range=p54-029-030.2x1; fi
+  if [ "$range" = "p54-033,034" ]; then range=p54-033-034; fi
+  if [ "$range" = "p54-039.2x2" ]; then range=p54-039-040.1x2; fi
+  if [ "$range" = "p54-045,046" ]; then range=p54-045-046; fi
+  if [ "$range" = "p54-057,058" ]; then range=p54-057-058; fi
+  if [ "$range" = "p54-065.4x3" ]; then range=p54-065-066.2x3; fi
+  if [ "$range" = "p54-069,070" ]; then range=p54-069-070; fi
+  if [ "$range" = "p54-071,072" ]; then range=p54-071-072; fi
+  if [ "$range" = "p54-077,078" ]; then range=p54-077-078; fi
+  if [ "$range" = "p54-079,080" ]; then range=p54-079-080; fi
+  if [ "$range" = "p54-081,082" ]; then range=p54-081-082; fi
+  if [ "$range" = "p54-083,084" ]; then range=p54-083-084; fi
+  if [ "$range" = "q40-119.4x2" ]; then range=q40-119-120.2x2; fi
+  if [ "$range" = "r46-111.4x4" ]; then range=r46-111-112.2x4; fi
+
   mapsoft_vmap --range_nom "$range" --set_brd_from_range\
-            --name "$base" --rscale "$rscale"\
+            --name "" --rscale "$rscale"\
             "$vmapdir/$base.vmap" -o "$name"
 done
