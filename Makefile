@@ -41,7 +41,7 @@ MDB = $(patsubst $(VDIR)/%.vmap, $(DBDIR)/%,        $(VMAP))
 .PRECIOUS: $(PNG) $(JPG) $(MPZ) $(IMG) $(HTM)
 
 # Map lists
-REGIONS := kav fan pam tsh zab saj nep put ura sun chi
+REGIONS := kav fan pam tsh zab saj nep put ura sun chi ind
 
 REG_IMG := $(patsubst %, $(ODIR)/all_%.img, $(REGIONS))
 REG_HTM := $(patsubst %, $(ODIR)/all_%.htm, $(REGIONS))

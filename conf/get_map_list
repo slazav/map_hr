@@ -27,6 +27,7 @@ case "$reg" in
   ura) range="[10580, 7160, 120, 100]" ;;
   sun) range="[24380, 6835, 300, 200]" ;;
   chi) range="[48650,-4980, 180, 280]" ;;
+  ind) range="[13680, 3500, 100, 120]" ;;
   *) echo "Unknown region: $reg" 1>&2; exit 1;;
 esac
 
