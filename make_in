@@ -71,9 +71,13 @@ for i in $IN_DIR/*.fig $IN_DIR/*.mp; do
   if [ "$ext" = fig ]; then
     cp -f -- "$i" "fig/$name.fig"
     vmap_copy "fig/$name.fig" -o "fig/$name.fig" --skip_all
+
+    # update fig
+    cd IN
+    ./map_get_fig "$i"
+    cd ..
   fi
 
-  # create fig
-  vmap_copy "$vmap" -o "$i"
+
   touch -d "$ot" "$i"
 done
