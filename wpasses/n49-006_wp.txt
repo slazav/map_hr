@@ -1,0 +1,2 @@
+# id   lat         lon           alt   title /other title/, cat
+15625   55.7752200  110.5543900  2000  пер. 15625, н/к
