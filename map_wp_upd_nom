@@ -1,5 +1,11 @@
 #!/bin/sh -efu
 
+# Обновить перевалы.
+# Перевалы скачиваются с сайта Вестры в виде KML, преобразуются в MP+TXT.
+# Обновляется VMAP, если есть файл wpasses/<name>_wp.sed, то vmap фильтруется.
+# Если в директории IN есть fig-файл, то он обновляется.
+
+
 # map_wp_upd_nom -- update passes
 # example: map_wp_upd_nom j43-061 j43-062
 
@@ -49,5 +55,12 @@ for i in "$@"; do
   fi
 
   rm -f -- "wpasses/${base}_wp.mp"
+
+  # update fig if needed
+  if [ -f IN/$base.fig ]; then
+    cd IN
+    ./map_get_fig "$i"
+    cd ..
+  fi
 
 done
