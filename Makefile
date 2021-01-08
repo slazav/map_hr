@@ -12,10 +12,10 @@ DFDIR := diff
 
 ### Programs:
 
-# v1.4 should be enough
+# v1.5+ (--fit_patt_size)
 MS2MAPDB := ms2mapdb
 
-# v1.4+ (e06178d58341b8879188877777c791cecdd814ee)
+# v1.5
 MS2CONV := ms2conv
 GMT     := gmt
 
@@ -161,7 +161,7 @@ tiles: $(MDB) $(TSTAMP1)
 	  --tmap --add --out "$(TDIR)/{x}-{y}-{z}.png" --zmin 7 --zmax 13\
 	  --bgcolor 0 --png_format pal --cmap_load $(CMAP)\
 	  --border_file $(CFDIR)/border.gpx\
-	  --tmap_scale 1;\
+	  --tmap_scale 1 --fit_patt_size;\
 	$(MS2MAPDB) render $$n --config $(CFDIR)/render.cfg\
 	  --define "{\"nom_name\":\"$$name\", \"hr\":\"1\", \"border_style\":\"none\"}"\
 	  --tmap --add --out "$(TDIR)/{x}-{y}-{z}.png" --zmin 0 --zmax 6\
