@@ -101,7 +101,7 @@ $(ODIR)/%.png: $(DBDIR)/% $(CMAP) $(CFDIR)/render.cfg
 	[ -s "$@" ] && convert $@ -scale 50% "$(DFDIR)/$*_o.png" ||:
 	$(MS2MAPDB) render $< --out $@ --config $(CFDIR)/render.cfg\
 	 --define "{\"nom_name\":\"$*\", \"hr\":\"1\"}"\
-	 --mkref nom --name $* --dpi 200 --margins 10 --top_margin 30\
+	 --mkref nom --north --name $* --dpi 200 --margins 10 --top_margin 30\
 	 --title "$*   /$$(date +"%Y-%m-%d")/" --title_size 20\
 	 --cmap_load $(CMAP) --png_format pal --map $(ODIR)/$*.map
 	convert $@  -scale 50% "$(DFDIR)/$*_n.png"
