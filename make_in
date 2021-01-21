@@ -1,5 +1,7 @@
 #!/bin/sh -e
 
+# Обновить VMAP из FIG/MP (из директории IN)
+
 IN_DIR=IN
 VMAP_DIR=vmap
 SCALE=100000
@@ -31,7 +33,7 @@ for i in $IN_DIR/*.fig $IN_DIR/*.mp; do
   # save old file mtime
   ot="$(stat "$i" -c %y)"
 
-#  cp -f "$i" "$i.bak"
+  cp -f "$i" "$i.bak"
 #  backup -D -d bak -z -- "$vmap"
 
   # mmb-filter
@@ -61,6 +63,9 @@ for i in $IN_DIR/*.fig $IN_DIR/*.mp; do
   if [ -s "$old" ]; then
     ~/mapsoft/vector/vmap3/vmap_fix_diff "$old" "$vmap" "$vmap"
   fi
+
+  # mmb-filter
+  vmap_mmb_filter "$vmap" "$vmap" ||:
 
   rm -f "$old"
 
