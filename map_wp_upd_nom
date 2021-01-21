@@ -50,8 +50,11 @@ for i in "$@"; do
     "$i" --split_labels --skip_source westra_passes\
     -o "$i"
 
-  if [ -f "wpasses/${base}_wp.sed" ]; then
-    sed -i --file "wpasses/${base}_wp.sed" "$i"
+  sed_args=''
+  if [ -f "wpasses.sed" ];            then sed_args="$sed_args --file wpasses.sed"; fi
+  if [ -f "wpasses/${base}_wp.sed" ]; then sed_args="$sed_args --file wpasses/${base}_wp.sed"; fi
+  if [ -n "$sed_args" ]; then
+    sed -r -i -e '/^OBJECT\t0x(67..|64..|1100)/{' $sed_args -e "}" "$i"
   fi
 
   rm -f -- "wpasses/${base}_wp.mp"
