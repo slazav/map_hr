@@ -62,7 +62,7 @@ for i in "$@"; do
   # update fig if needed
   if [ -f IN/$base.fig ]; then
     cd IN
-    ./map_get_fig "$i"
+    ./map_get_fig "$base.fig"
     cd ..
   fi
 

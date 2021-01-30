@@ -7,20 +7,11 @@ vmapdir="../vmap"
 rscale=100000
 
 for name in "$@"; do
-  base=$(basename ${name%.*})
+  base="$(basename ${name%.fig})"
   name="$base.fig"
   cp -f -- "$figdir/$name" "$name" ||:
 
-  range=$(sed -ne "s/$base\s\+//p" ../maps.txt ||:)
-  [ -n "$range" ] || range="$base"
-
-  # convert range to mapsoft1 style.
-  range=$(echo $range | sed 's/,/-/')
-  if [ "$range" = "p54-029.4x1" ]; then range=p54-029-030.2x1; fi
-  if [ "$range" = "p54-039.2x2" ]; then range=p54-039-040.1x2; fi
-  if [ "$range" = "p54-065.4x3" ]; then range=p54-065-066.2x3; fi
-  if [ "$range" = "q40-119.4x2" ]; then range=q40-119-120.2x2; fi
-  if [ "$range" = "r46-111.4x4" ]; then range=r46-111-112.2x4; fi
+  range=$(../map_get_nom --old $name .fig)
 
   mapsoft_vmap --range_nom "$range" --set_brd_from_range\
             --name "" --rscale "$rscale"\
