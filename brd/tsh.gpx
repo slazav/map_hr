@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<gpx xmlns="http://www.topografix.com/GPX/1/1">
+<?xml version='1.0' encoding='UTF-8'?>
+<gpx version='1.1' creator='mapsoft-2'>
   <trk>
     <trkseg>
-      <trkpt lat="42.498541" lon="79.149139"/>
-      <trkpt lat="42.333270" lon="79.155155"/>
-      <trkpt lat="41.999968" lon="79.164599"/>
-      <trkpt lat="41.898007" lon="79.166730"/>
-      <trkpt lat="41.884701" lon="78.469149"/>
-      <trkpt lat="41.920805" lon="78.468029"/>
-      <trkpt lat="41.915812" lon="78.247657"/>
-      <trkpt lat="41.999891" lon="78.244493"/>
-      <trkpt lat="42.000217" lon="77.999988"/>
-      <trkpt lat="42.333404" lon="77.999813"/>
-      <trkpt lat="42.499533" lon="77.999542"/>
-      <trkpt lat="42.498739" lon="78.498936"/>
-      <trkpt lat="42.499882" lon="78.999623"/>
-      <trkpt lat="42.499226" lon="79.149138"/>
+      <trkpt lat='42.4985410' lon='79.1491390'/>
+      <trkpt lat='42.3332700' lon='79.1551550'/>
+      <trkpt lat='41.9999680' lon='79.1645990'/>
+      <trkpt lat='41.8980070' lon='79.1667300'/>
+      <trkpt lat='41.8952716' lon='78.9991761'/>
+      <trkpt lat='41.8855871' lon='78.4993631'/>
+      <trkpt lat='41.8836955' lon='78.4212853'/>
+      <trkpt lat='41.9996958' lon='78.4159051'/>
+      <trkpt lat='42.0002170' lon='77.9999880'/>
+      <trkpt lat='42.3334040' lon='77.9998130'/>
+      <trkpt lat='42.4995330' lon='77.9995420'/>
+      <trkpt lat='42.4987390' lon='78.4989360'/>
+      <trkpt lat='42.4998820' lon='78.9996230'/>
+      <trkpt lat='42.4992260' lon='79.1491380'/>
     </trkseg>
   </trk>
 </gpx>
