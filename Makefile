@@ -131,51 +131,6 @@ $(ODIR)/%.htm: $(ODIR)/%.png  $(ODIR)/%.img  $(ODIR)/%.mp.zip $(ODIR)/%.jpg
 	sed "s|((NAME))|$*|g;s|((DATE))|$$date|g" $(CFDIR)/map.htm > $@
 
 ##################################################
-# Rules for making tiles.
-# - process all mapdb folders newer then tstamp in tiles/
-# - render with --add switch: add information to existing tiles
-# - render with --tmap_scale 1: rescale larger tiles to 
-# - do separately for zoom 9..12 and 0..8
-
-# 1st timestamp depends on configuration files.
-# It's updated when configuration changes and tiles should be
-# recreated from scratch.
-TSTAMP1=$(TDIR)/tstamp1
-$(TSTAMP1): $(CFDIR)/render.cfg $(CFDIR)/border.gpx $(CMAP)
-	mkdir -p $(TDIR)
-	rm -f $(TDIR)/*.png $(TSTAMP2)
-	touch $(TSTAMP1)
-
-# 2nd timestamp is updated when tiles are updated.
-# In normal situation only maps which are newer then tstamp2
-# are rendered.
-TSTAMP2=$(TDIR)/tstamp2
-.PHONY: tiles
-tiles: $(MDB) $(TSTAMP1)
-	for n in $(MDB); do \
-	[ "$$n/objects.db" -nt  "$(TSTAMP2)" ] || continue;\
-	echo "$$n";\
-	name=`basename $$n`;\
-	$(MS2MAPDB) render $$n --config $(CFDIR)/render.cfg\
-	  --define "{\"nom_name\":\"$$name\", \"hr\":\"1\", \"border_style\":\"none\"}"\
-	  --tmap --add --out "$(TDIR)/{x}-{y}-{z}.png" --zmin 7 --zmax 13\
-	  --bgcolor 0 --png_format pal --cmap_load $(CMAP)\
-	  --border_file $(CFDIR)/border.gpx\
-	  --tmap_scale 1 --fit_patt_size;\
-	$(MS2MAPDB) render $$n --config $(CFDIR)/render.cfg\
-	  --define "{\"nom_name\":\"$$name\", \"hr\":\"1\", \"border_style\":\"none\"}"\
-	  --tmap --add --out "$(TDIR)/{x}-{y}-{z}.png" --zmin 0 --zmax 6\
-	  --bgcolor 0 --png_format pal --cmap_load $(CMAP)\
-	  --border_file $(CFDIR)/border.gpx\
-	  --tmap_scale 1 --mapdb_minsc 1;\
-	done
-	touch $(TSTAMP2)
-
-$(TDIR)/tile.list: tiles
-	find TILES/ -name '*.png' | xargs md5sum | sed 's| TILES/| |' > $@
-
-#
-##################################################
 # Rules for making map lists.
 
 # calculate map list for each region

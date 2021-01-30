@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <trkseg>
+      <trkpt lat="70.000814" lon="92.579085"/>
+      <trkpt lat="68.950264" lon="92.600399"/>
+      <trkpt lat="68.939026" lon="90.998581"/>
+      <trkpt lat="70.000564" lon="90.998311"/>
+      <trkpt lat="70.000973" lon="91.740863"/>
+      <trkpt lat="70.000718" lon="92.213219"/>
+    </trkseg>
+  </trk>
+</gpx>
