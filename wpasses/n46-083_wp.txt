@@ -1,0 +1,2 @@
+# id   lat         lon           alt   title /other title/, cat
+9421   53.9952778   95.3333333  1540  пер. Обзорный, н/к
