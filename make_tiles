@@ -14,6 +14,9 @@ MS2MAPDB=ms2mapdb
 MS2NOM=ms2nom
 cmap=conf/cmap.png
 tlist=TILES/tile.list
+vmap_cnf=conf/import_vmap.cfg
+
+mkdir -p TILES
 
 all=0
 if [ "${1:-}" = "--all" ]; then
@@ -22,6 +25,7 @@ if [ "${1:-}" = "--all" ]; then
 fi
 
 need_upd=0
+files=${@:-vmap/*.vmap}
 
 # For each border file
 for brd_file in brd/*.gpx; do
@@ -29,7 +33,7 @@ for brd_file in brd/*.gpx; do
     echo "Border: $brd_file"
 
   # For each map file
-  for vmap in vmap/*.vmap; do
+  for vmap in $files; do
     [ -f "$vmap" ] || continue
     name=$(basename $vmap .vmap)
     nom=$(./map_get_nom $name)
@@ -47,11 +51,11 @@ for brd_file in brd/*.gpx; do
 
     # update mapdb if needed
     mapdb=mapdb/$name
-    if [ "$mapdb/objects.db" -ot "$vmap" ]; then
+    if [ "$mapdb/objects.db" -ot "$vmap" -o "$mapdb/objects.db" -ot "$vmap_cnf" ]; then
       echo "Update mapdb: $name"
       $MS2MAPDB delete $mapdb
       $MS2MAPDB create $mapdb
-      $MS2MAPDB import_vmap $mapdb $vmap --config conf/import_vmap.cfg
+      $MS2MAPDB import_vmap $mapdb $vmap --config "$vmap_cnf"
     fi
 
     $MS2MAPDB render $mapdb --config conf/render.cfg\
