@@ -1,27 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<gpx xmlns="http://www.topografix.com/GPX/1/1">
+<?xml version='1.0' encoding='UTF-8'?>
+<gpx version='1.1' creator='mapsoft-2'>
   <trk>
     <trkseg>
-      <trkpt lat="50.998216" lon="99.455106"/>
-      <trkpt lat="50.991283" lon="100.310986"/>
-      <trkpt lat="50.560054" lon="100.298942"/>
-      <trkpt lat="50.566204" lon="99.450890"/>
+      <trkpt lat='50.9982160' lon='99.4551060'/>
+      <trkpt lat='50.9912830' lon='100.3109860'/>
+      <trkpt lat='50.5600540' lon='100.2989420'/>
+      <trkpt lat='50.5662040' lon='99.4508900'/>
+      <trkpt lat='50.9982004' lon='99.4537354'/>
     </trkseg>
     <trkseg>
-      <trkpt lat="52.329006" lon="98.999331"/>
-      <trkpt lat="52.326901" lon="99.704208"/>
-      <trkpt lat="51.931306" lon="99.697590"/>
-      <trkpt lat="51.933607" lon="98.999666"/>
+      <trkpt lat='52.3290060' lon='98.9993310'/>
+      <trkpt lat='52.3269010' lon='99.7042080'/>
+      <trkpt lat='51.9313060' lon='99.6975900'/>
+      <trkpt lat='51.9336070' lon='98.9996660'/>
+      <trkpt lat='52.3303040' lon='98.9978027'/>
     </trkseg>
     <trkseg>
-      <trkpt lat="54.333506" lon="95.398802"/>
-      <trkpt lat="54.333928" lon="95.499696"/>
-      <trkpt lat="54.333115" lon="96.000251"/>
-      <trkpt lat="54.333423" lon="96.501423"/>
-      <trkpt lat="54.333025" lon="96.998747"/>
-      <trkpt lat="54.000838" lon="96.998386"/>
-      <trkpt lat="53.803254" lon="96.997225"/>
-      <trkpt lat="53.765877" lon="95.365992"/>
+      <trkpt lat='54.3335060' lon='95.3988020'/>
+      <trkpt lat='54.3339280' lon='95.4996960'/>
+      <trkpt lat='54.3331150' lon='96.0002510'/>
+      <trkpt lat='54.3334230' lon='96.5014230'/>
+      <trkpt lat='54.3330250' lon='96.9987470'/>
+      <trkpt lat='54.0008380' lon='96.9983860'/>
+      <trkpt lat='53.8032540' lon='96.9972250'/>
+      <trkpt lat='53.7658770' lon='95.3659920'/>
+      <trkpt lat='54.3333419' lon='95.3984070'/>
     </trkseg>
   </trk>
 </gpx>

@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<gpx xmlns="http://www.topografix.com/GPX/1/1">
+<?xml version='1.0' encoding='UTF-8'?>
+<gpx version='1.1' creator='mapsoft-2'>
   <trk>
     <trkseg>
-      <trkpt lat="70.000814" lon="92.579085"/>
-      <trkpt lat="68.950264" lon="92.600399"/>
-      <trkpt lat="68.939026" lon="90.998581"/>
-      <trkpt lat="70.000564" lon="90.998311"/>
-      <trkpt lat="70.000973" lon="91.740863"/>
-      <trkpt lat="70.000718" lon="92.213219"/>
+      <trkpt lat='70.0008140' lon='92.5790850'/>
+      <trkpt lat='68.9502640' lon='92.6003990'/>
+      <trkpt lat='68.9390260' lon='90.9985810'/>
+      <trkpt lat='70.0005640' lon='90.9983110'/>
+      <trkpt lat='70.0009730' lon='91.7408630'/>
+      <trkpt lat='70.0008704' lon='92.5790405'/>
     </trkseg>
   </trk>
 </gpx>
