@@ -1589,7 +1589,7 @@ OBJECT	0x6701 Ойбек-Ховатский
   OPT	Angle	-124
   OPT	Source	westra_passes
   LABEL	67861816,39000410 L H
-  DATA	67858537,39001309
+  DATA	67858537,39001310
 OBJECT	0x6701 Сарымат В.
   OPT	Angle	-147
   OPT	Source	westra_passes
@@ -1679,7 +1679,7 @@ OBJECT	0x6704 Аксу Ю.
   OPT	Angle	67
   OPT	Source	westra_passes
   LABEL	67985807,39036626 R H
-  DATA	67988666,39037948
+  DATA	67988670,39037957
 OBJECT	0x6704 Елсай
   OPT	Angle	157
   OPT	Source	westra_passes
