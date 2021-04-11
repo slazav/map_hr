@@ -39,7 +39,7 @@ for brd_file in brd/*.gpx; do
     nom=$(./map_get_nom $name)
 
     # Is the file touches the border?
-    $($MS2NOM --ext --name "$nom" --gdata "$brd_file") || continue
+    $($MS2NOM --ext --name "$nom" --cover "$brd_file") || continue
 
     # Skip if vmap older then tile.list AND
     # border older then tile.list and no --all option is given:

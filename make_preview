@@ -3,7 +3,6 @@
 # Make preview images.
 
 MS2MAPDB=ms2mapdb
-MS2NOM=ms2nom
 cmap=conf/cmap.png
 vmap_cnf=conf/import_vmap.cfg
 rend_cnf=conf/render.cfg

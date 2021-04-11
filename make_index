@@ -41,7 +41,7 @@ for brd_file in $regs; do
     nom=$(./map_get_nom $name)
 
     # Is the file touches the border?
-    $MS2NOM --ext --name "$nom" --gdata "$brd_file" || continue
+    $MS2NOM --ext --name "$nom" --cover "$brd_file" || continue
     list="$list $name"
     imgs="$imgs OUT/$name.img"
     maps="$maps OUT/$name.map"
