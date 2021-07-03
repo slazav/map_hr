@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gpx version='1.1' creator='mapsoft-2'>
+  <trk>
+    <name>Buordakh</name>
+    <trkseg>
+      <trkpt lat='64.5003554' lon='143.0026070'>
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat='64.5005583' lon='143.4988628'>
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat='64.8342694' lon='143.5003273'>
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat='64.8334511' lon='143.9999994'>
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat='64.8332393' lon='144.3097401'/>
+      <trkpt lat='64.9999756' lon='144.3082952'/>
+      <trkpt lat='64.9999511' lon='144.0003877'/>
+      <trkpt lat='65.0177160' lon='144.0007182'>
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat='65.0183902' lon='143.0025206'>
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat='64.5012666' lon='143.0025899'>
+        <ele>0.00</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
