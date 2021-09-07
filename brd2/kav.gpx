@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<trk>
+		<name>New track</name>
+		<trkseg>
+			<trkpt lat="44.079693" lon="39.885864"/>
+			<trkpt lat="44.067854" lon="45.087891"/>
+			<trkpt lat="41.930890" lon="45.098877"/>
+			<trkpt lat="41.930890" lon="39.946289"/>
+		</trkseg>
+	</trk>
+</gpx>

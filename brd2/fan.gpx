@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gpx version='1.1' creator='mapsoft-2'>
+  <trk>
+    <name>New track</name>
+    <trkseg>
+      <trkpt lat='40.0465400' lon='67.4285890'/>
+      <trkpt lat='38.2791570' lon='67.4450680'/>
+      <trkpt lat='38.2827052' lon='71.1467401'/>
+      <trkpt lat='40.0394403' lon='71.1340599'/>
+    </trkseg>
+  </trk>
+</gpx>
