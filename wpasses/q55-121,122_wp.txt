@@ -1,1 +1,2 @@
 # id   lat         lon           alt   title /other title/, cat
+16452   64.5740600  144.9240900     0  пер. Курун, н/к
