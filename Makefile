@@ -1,14 +1,13 @@
 ###############################
-# 2020-10-31, new rendering system
-
-
-in:
-	./make_in
+# 2022-11-29, new rendering system
 
 pr:
-	./make_preview
+	vmaps_preview
 
-all:
-	./make_out
-	./make_index
-	./make_tiles
+in:
+	vmaps_in
+
+out:
+	vmaps_out
+
+

@@ -1,0 +1,78 @@
+#!/bin/sh -efu
+
+# Обновить перевалы.
+# Перевалы скачиваются с сайта Вестры в виде KML, преобразуются в MP+TXT.
+# Обновляется VMAP, если есть файл wpasses/<name>_wp.sed, то vmap фильтруется.
+# Если в директории IN есть fig-файл, то он обновляется.
+
+# vmaps_wp_update -- update passes
+# example: vmaps_wp_update j43-061 j43-062
+# Data is stored in ./wpasses/ dir
+
+##################################################
+
+# read global configuration and functions
+. vmaps.sh
+
+# read local configuration
+. ./vmaps.conf
+
+##################################################
+
+# get url for downloading data from westra pass catalog
+# usage:  ll2wp <wgs lonlat geom>
+ll2wp(){
+  local geom="$1"
+
+  echo "$geom" |
+  sed 's/^\[\([0-9\.-]\+\) *, *\([0-9\.-]\+\) *, *\([0-9\.-]\+\) *, *\([0-9\.-]\+\)\]/\1 \2 \3 \4/' |
+  {
+    local x1 x2 y1 y2 dx dy
+    read x1 y1 dx dy
+    x2="$(printf -- "${x1#+} + $dx\n" | bc -l)"
+    y2="$(printf -- "${y1#+} + $dy\n" | bc -l)"
+    printf "http://westra.ru/passes/kml/passes.php?BBOX=%f,%f,%f,%f" $x1 $y1 $x2 $y2
+  }
+}
+
+
+mkdir -p -- wpasses
+for i in "$@"; do
+  # name without directory and extension:
+  name=${i%.*}
+  name=${name##*/}
+  vmap="$VMAP_DIR/$name.$VMAP_EXT"
+  echo $name
+
+  # WGS range
+  g="$(ms2nom --wgs --ext --name "$name")"
+
+  # download
+  wget "$(ll2wp "$g")" -O - > "wpasses/${name}_wp.kml"
+
+  # kml -> mp, txt
+  vmaps_wp_parse "wpasses/${name}_wp.kml"
+
+  # merge into vmap
+  ms2vmap wpasses/${name}_wp.mp -o "$vmap"\
+    --types "$TYPEINFO" --define "$(vmap_defs)"\
+    --update_tag westra_passes --fix_rounding 1
+
+  sed_args=''
+  if [ -f "wpasses.sed" ];            then sed_args="$sed_args --file wpasses.sed"; fi
+  if [ -f "wpasses/${name}_wp.sed" ]; then sed_args="$sed_args --file wpasses/${name}_wp.sed"; fi
+  if [ -n "$sed_args" -a "$VMAP_EXT" = "vmap" ]; then
+    sed -r -i -e '/^OBJECT\t0x(67..|64..|1100)/,/^ +DATA/{' $sed_args -e "}" "$vmap"
+  fi
+  if [ -n "$sed_args" -a "$VMAP_EXT" = "vmap2" ]; then
+    sed -r -i -e '/^point:0x(67..|64..|1100)/,/^$/{/^name /{' $sed_args -e "}}" "$vmap"
+  fi
+
+  rm -f -- "wpasses/${name}_wp.mp"
+
+  # update fig if needed
+  if [ -f IN/$name.fig ]; then
+    vmaps_get_fig "$name.fig"
+  fi
+
+done

@@ -7,13 +7,7 @@ vmapdir="../vmap"
 rscale=100000
 
 for name in "$@"; do
-  base="$(basename ${name%.fig})"
-  name="$base.fig"
-  cp -f -- "$figdir/$name" "$name" ||:
-
-  range=$(../map_get_nom --old $name .fig)
-
-  mapsoft_vmap --range_nom "$range" --set_brd_from_range\
-            --name "" --rscale "$rscale"\
-            "$vmapdir/$base.vmap" -o "$name"
+  cd ..
+  vmaps_get_fig "$name"
+  cd IN
 done
