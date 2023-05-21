@@ -1,3 +1,0 @@
-# id   lat         lon           alt   title /other title/, cat
-10006   28.5506960   84.5592190  8163  вер. Manaslu /Pung Gyen, Kutang/
-10014   28.4367530   84.6391480  7893  вер. Himal Chuli

@@ -1,6 +1,0 @@
-# id   lat         lon           alt   title /other title/, cat
-10013   28.5350160   84.1219510  7937  вер. Annapurna II
-10581   28.6481330   84.1875610  6097  вер. Pisang Peak /Jong Ri/
-10589   28.4893370   84.1888550  6983  вер. Lamjung Himal
-10591   28.5367130   84.0830310  7525  вер. Annapurna IV
-10593   28.6583540   84.3025510  6987  вер. Kangri Himal

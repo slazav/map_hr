@@ -1,2 +1,0 @@
-# id   lat         lon           alt   title /other title/, cat
-7655   55.7438216  108.7856144   990  пер. Даван, н/к

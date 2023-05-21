@@ -1,2 +1,0 @@
-# id   lat         lon           alt   title /other title/, cat
-13415   30.8729722   78.8917778  5474  пер. Auden Col, 2Б

@@ -1,2 +1,0 @@
-# id   lat         lon           alt   title /other title/, cat
-8986   52.0174925   99.5274352  2940  пер. Правый Муя-Гол, 1А

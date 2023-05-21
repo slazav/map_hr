@@ -1,2 +1,0 @@
-# id   lat         lon           alt   title /other title/, cat
-10651   55.6328220  113.8687950  1460  пер. Сан, н/к

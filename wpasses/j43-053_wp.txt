@@ -1,2 +1,0 @@
-# id   lat         lon           alt   title /other title/, cat
-11567   38.3429810   74.0950220  4858  вер. Ташматык

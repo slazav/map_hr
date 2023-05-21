@@ -1,2 +1,0 @@
-# id   lat         lon           alt   title /other title/, cat
-10631   56.0582450  113.4801680  1920  пер. Промысловый, 1А
