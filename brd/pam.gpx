@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
 	<metadata>
-		<time>2023-05-28T16:56:48.207Z</time>
+		<time>2023-06-09T08:59:21.223Z</time>
 	</metadata>
 	<trk>
 		<name>pam</name>
@@ -18,8 +18,10 @@
 			<trkpt lat="39.333142" lon="71.999248"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="39.500332" lon="72.000961"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="39.499272" lon="72.499466"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="39.333058" lon="72.499989"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="38.998909" lon="72.498779"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="39.422337" lon="72.499895"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="39.423265" lon="72.750263"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="39.332704" lon="72.750006"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="39.332173" lon="73.001404"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="38.999442" lon="72.999344"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="38.666380" lon="72.999524"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="38.401854" lon="72.999275"><time>1970-01-01T00:00:01.000Z</time></trkpt>
