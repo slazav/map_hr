@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
 	<metadata>
-		<time>2023-06-17T12:48:56.287Z</time>
+		<time>2023-06-19T03:15:14.811Z</time>
 	</metadata>
 	<trk>
 		<name>fan</name>
 		<trkseg>
 			<trkpt lat="39.365969" lon="67.722764"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="39.369208" lon="68.169479"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="39.429564" lon="68.170166"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="39.428768" lon="68.297539"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="39.370137" lon="68.297539"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="39.368545" lon="68.064251"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="39.390969" lon="68.064938"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="39.391101" lon="68.088970"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="39.499802" lon="68.090773"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="39.499868" lon="68.298998"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="39.438182" lon="68.298912"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="39.438911" lon="68.359509"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="39.408744" lon="68.360882"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="39.410799" lon="68.500271"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="39.371000" lon="68.500099"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="39.372963" lon="68.999243"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="39.332916" lon="68.998719"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="39.332764" lon="69.498506"><time>1970-01-01T00:00:01.000Z</time></trkpt>
