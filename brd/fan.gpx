@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
 	<metadata>
-		<time>2023-07-22T17:51:47.684Z</time>
+		<time>2023-07-30T18:52:09.335Z</time>
 	</metadata>
 	<trk>
 		<name>fan</name>
@@ -10,11 +10,14 @@
 			<trkpt lat="39.368007" lon="67.999539"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="39.500337" lon="67.999539"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="39.500058" lon="68.500447"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="39.499935" lon="68.612709"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="39.371729" lon="68.610649"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="39.500058" lon="68.750214"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="39.372127" lon="68.750042"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="39.372964" lon="68.999252"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="39.332924" lon="68.998715"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="39.332774" lon="69.498507"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="39.167335" lon="69.498825"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="39.166537" lon="69.749794"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="39.000243" lon="69.750137"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="39.000330" lon="69.498507"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="38.666963" lon="69.498379"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="38.666620" lon="69.332833"><time>1970-01-01T00:00:01.000Z</time></trkpt>
