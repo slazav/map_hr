@@ -901,6 +901,10 @@ OBJECT	0x6702 Каинды
   OPT	Source	westra_passes
   LABEL	72623760,39097095 L H
   DATA	72623344,39101836
+OBJECT	0x6702 Прижимный
+  OPT	Source	westra_passes
+  LABEL	72736304,39278960 L H
+  DATA	72733940,39277730
 OBJECT	0x6702 Терриконный
   OPT	Source	westra_passes
   LABEL	72739317,39286866 L H
@@ -933,6 +937,10 @@ OBJECT	0x6703 Никитина
   OPT	Source	westra_passes
   LABEL	72875481,39137802 L H
   DATA	72881581,39141728
+OBJECT	0x6703 Обходной
+  OPT	Source	westra_passes
+  LABEL	72768197,39321211 L H
+  DATA	72765480,39322630
 OBJECT	0x6703 Октябрьский З. (Ю.седло)
   OPT	Source	westra_passes
   LABEL	72936369,39185401 L H
