@@ -1,12 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<gpx version='1.1' creator='mapsoft-2'>
-  <trk>
-    <name>New track</name>
-    <trkseg>
-      <trkpt lat='52.4112676' lon='97.8730847'/>
-      <trkpt lat='52.4233958' lon='101.1931688'/>
-      <trkpt lat='50.2299646' lon='101.2601202'/>
-      <trkpt lat='50.2364706' lon='97.8467155'/>
-    </trkseg>
-  </trk>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2023-08-20T15:28:28.736Z</time>
+	</metadata>
+	<trk>
+		<name>saj</name>
+		<trkseg>
+			<trkpt lat="55.998381" lon="93.032227"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.973798" lon="101.931152"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="47.960502" lon="101.997070"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="48.004625" lon="96.020508"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="52.025459" lon="92.966309"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
 </gpx>
