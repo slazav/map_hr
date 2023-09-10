@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
 	<metadata>
-		<time>2023-09-09T22:11:48.551Z</time>
+		<time>2023-09-10T09:07:50.124Z</time>
 	</metadata>
 	<trk>
 		<name>kav</name>
@@ -32,10 +32,8 @@
 		<trkseg>
 			<trkpt lat="43.844743" lon="40.626457"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="43.839894" lon="40.937893"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.666880" lon="40.932658"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.666752" lon="40.500243"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.631043" lon="40.499897"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.632721" lon="40.348921"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="43.624396" lon="40.931110"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="43.632720" lon="40.348923"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="43.833156" lon="40.353987"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="43.833285" lon="40.499899"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="43.846653" lon="40.500414"><time>1970-01-01T00:00:01.000Z</time></trkpt>
