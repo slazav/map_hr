@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
 	<metadata>
-		<time>2023-09-10T09:07:50.124Z</time>
+		<time>2023-09-10T09:39:11.481Z</time>
 	</metadata>
 	<trk>
 		<name>kav</name>
@@ -34,8 +34,7 @@
 			<trkpt lat="43.839894" lon="40.937893"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="43.624396" lon="40.931110"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="43.632720" lon="40.348923"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.833156" lon="40.353987"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.833285" lon="40.499899"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="43.849013" lon="40.354414"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="43.846653" lon="40.500414"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="43.844679" lon="40.626414"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 		</trkseg>
