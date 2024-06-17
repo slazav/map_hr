@@ -1,43 +1,43 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
-	<metadata>
-		<time>2023-09-27T18:39:55.947Z</time>
-	</metadata>
-	<trk>
-		<name>kav</name>
-		<trkseg>
-			<trkpt lat="42.843356" lon="43.971558"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="42.847498" lon="44.656315"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="42.595563" lon="44.657517"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="42.592344" lon="43.975055"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="42.842755" lon="43.971408"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-		</trkseg>
-		<trkseg>
-			<trkpt lat="43.061001" lon="41.998568"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.082802" lon="42.998002"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="42.666502" lon="42.998431"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="42.666395" lon="42.765765"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="42.666567" lon="42.486043"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="42.666180" lon="42.218037"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="42.665944" lon="41.998696"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.061860" lon="41.997988"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-		</trkseg>
-		<trkseg>
-			<trkpt lat="43.500005" lon="42.426624"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.500254" lon="42.750206"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.438421" lon="42.750638"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.240701" lon="42.758102"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.235198" lon="42.438812"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.499881" lon="42.426624"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-		</trkseg>
-		<trkseg>
-			<trkpt lat="43.844743" lon="40.626457"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.839894" lon="40.937893"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.624396" lon="40.931110"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.632720" lon="40.348923"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.849013" lon="40.354414"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.846653" lon="40.500414"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.844679" lon="40.626414"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-		</trkseg>
-	</trk>
+<?xml version='1.0' encoding='UTF-8'?>
+<gpx version='1.1' creator='mapsoft-2'>
+  <metadata>
+    <time>2023-09-27T18:39:55.947Z</time>
+  </metadata>
+  <trk>
+    <name>kav</name>
+    <trkseg>
+      <trkpt lat="42.843356" lon="43.971558"/>
+      <trkpt lat="42.847498" lon="44.656315"/>
+      <trkpt lat="42.595563" lon="44.657517"/>
+      <trkpt lat="42.592344" lon="43.975055"/>
+      <trkpt lat="42.842755" lon="43.971408"/>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="43.061001" lon="41.998568"/>
+      <trkpt lat="43.082802" lon="42.998002"/>
+      <trkpt lat="42.666502" lon="42.998431"/>
+      <trkpt lat="42.666395" lon="42.765765"/>
+      <trkpt lat="42.666567" lon="42.486043"/>
+      <trkpt lat="42.666180" lon="42.218037"/>
+      <trkpt lat="42.665944" lon="41.998696"/>
+      <trkpt lat="43.061860" lon="41.997988"/>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="43.500005" lon="42.426624"/>
+      <trkpt lat="43.500254" lon="42.750206"/>
+      <trkpt lat="43.438421" lon="42.750638"/>
+      <trkpt lat="43.240701" lon="42.758102"/>
+      <trkpt lat="43.235198" lon="42.438812"/>
+      <trkpt lat="43.499881" lon="42.426624"/>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="43.844743" lon="40.626457"/>
+      <trkpt lat="43.839894" lon="40.937893"/>
+      <trkpt lat="43.624396" lon="40.931110"/>
+      <trkpt lat="43.632720" lon="40.348923"/>
+      <trkpt lat="43.849013" lon="40.354414"/>
+      <trkpt lat="43.846653" lon="40.500414"/>
+      <trkpt lat="43.844679" lon="40.626414"/>
+    </trkseg>
+  </trk>
 </gpx>

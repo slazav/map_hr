@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gpx version='1.1' creator='mapsoft-2'>
+  <metadata>
+    <time>2023-09-30T16:18:36.830Z</time>
+  </metadata>
+  <trk>
+    <name>hib</name>
+    <trkseg>
+      <trkpt lat="67.574408" lon="35.061493"/>
+      <trkpt lat="67.584621" lon="33.998566"/>
+      <trkpt lat="67.587632" lon="33.137856"/>
+      <trkpt lat="67.928301" lon="33.140087"/>
+      <trkpt lat="67.925399" lon="33.996506"/>
+      <trkpt lat="67.915591" lon="35.092392"/>
+      <trkpt lat="67.574670" lon="35.060120"/>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="66.940283" lon="32.354736"/>
+      <trkpt lat="67.262756" lon="32.349243"/>
+      <trkpt lat="67.264613" lon="33.645630"/>
+      <trkpt lat="66.942434" lon="33.636017"/>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,17 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
-	<metadata>
-		<time>2023-07-22T19:26:35.624Z</time>
-	</metadata>
-	<trk>
-		<name>zail</name>
-		<trkseg>
-			<trkpt lat="43.140828" lon="77.068491"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.141015" lon="77.146854"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.085439" lon="77.146425"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.085125" lon="77.066023"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.106059" lon="77.066517"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="43.140264" lon="77.068062"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-		</trkseg>
-	</trk>
+<?xml version='1.0' encoding='UTF-8'?>
+<gpx version='1.1' creator='mapsoft-2'>
+  <trk>
+    <name>zail</name>
+    <trkseg>
+      <trkpt lat="43.140828" lon="77.068491"/>
+      <trkpt lat="43.141015" lon="77.146854"/>
+      <trkpt lat="43.085439" lon="77.146425"/>
+      <trkpt lat="43.085125" lon="77.066023"/>
+      <trkpt lat="43.106059" lon="77.066517"/>
+      <trkpt lat="43.140264" lon="77.068062"/>
+    </trkseg>
+  </trk>
 </gpx>

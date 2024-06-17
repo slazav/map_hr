@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2024-06-17T09:51:00.084Z</time>
+	</metadata>
+	<trk>
+		<name>sunt</name>
+		<trkseg>
+			<trkpt lat="67.991108" lon="131.967773"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="68.007571" lon="156.005859"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.998986" lon="156.093750"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.998986" lon="132.099609"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>

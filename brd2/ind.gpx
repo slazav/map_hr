@@ -1,14 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<gpx version='1.1' creator='mapsoft-2'>
-  <trk>
-    <name>New track</name>
-    <trkseg>
-      <trkpt lat='32.7018000' lon='76.9592290'/>
-      <trkpt lat='32.7018000' lon='78.0166630'/>
-      <trkpt lat='31.0390847' lon='79.5382731'/>
-      <trkpt lat='30.2743681' lon='79.5503889'/>
-      <trkpt lat='30.2953142' lon='78.4796765'/>
-      <trkpt lat='31.6019310' lon='76.9482420'/>
-    </trkseg>
-  </trk>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2024-06-17T10:13:01.325Z</time>
+	</metadata>
+	<trk>
+		<name>ind</name>
+		<trkseg>
+			<trkpt lat="33.988918" lon="75.003662"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="33.998027" lon="81.002197"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="29.993002" lon="81.013184"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="30.021544" lon="74.992676"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="33.998027" lon="75.025635"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
 </gpx>
