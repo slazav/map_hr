@@ -2,12 +2,12 @@
 <gpx version='1.1' creator='mapsoft-2'>
   <trk>
     <trkseg>
-      <trkpt lat='70.0008140' lon='92.5790850'/>
-      <trkpt lat='68.9502640' lon='92.6003990'/>
-      <trkpt lat='68.9390260' lon='90.9985810'/>
+      <trkpt lat='69.9999310' lon='92.9999540'/>
+      <trkpt lat='68.9529660' lon='93.0006410'/>
+      <trkpt lat='68.9391530' lon='90.9997560'/>
       <trkpt lat='70.0005640' lon='90.9983110'/>
-      <trkpt lat='70.0009730' lon='91.7408630'/>
-      <trkpt lat='70.0008704' lon='92.5790405'/>
+      <trkpt lat='69.9999310' lon='91.9995120'/>
+      <trkpt lat='69.9999310' lon='92.9999540'/>
     </trkseg>
   </trk>
 </gpx>
