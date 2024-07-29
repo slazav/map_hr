@@ -1,0 +1,4 @@
+# id   lat         lon           alt   title /other title/, cat
+18488   31.8419300   77.4359800     0  вер. Barohi
+18489   31.8634900   77.3742200     0  вер. Hargaren
+18490   31.9049000   77.4323400     0  вер. Bhekhar Khal
