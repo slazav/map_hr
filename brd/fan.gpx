@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <gpx version='1.1' creator='mapsoft-2'>
   <trk>
+    <name>fan</name>
     <trkseg>
       <trkpt lat='39.3659690' lon='67.7227560'/>
       <trkpt lat='39.3680070' lon='67.9995390'/>
@@ -13,10 +14,8 @@
       <trkpt lat='39.3327740' lon='69.4985070'/>
       <trkpt lat='39.3329670' lon='69.7501410'/>
       <trkpt lat='39.3329670' lon='70.0004240'/>
-      <trkpt lat='39.2608260' lon='69.9999090'/>
-      <trkpt lat='39.2600380' lon='70.1243590'/>
-      <trkpt lat='39.0709120' lon='70.1241870'/>
-      <trkpt lat='39.0713120' lon='69.9992220'/>
+      <trkpt lat='39.3332350' lon='70.1241870'/>
+      <trkpt lat='39.0002430' lon='70.1240160'/>
       <trkpt lat='39.0001150' lon='69.9988790'/>
       <trkpt lat='39.0002440' lon='69.7501410'/>
       <trkpt lat='39.0003300' lon='69.4985070'/>
