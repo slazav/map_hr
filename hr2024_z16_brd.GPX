@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
 	<metadata>
-		<time>2024-11-01T07:16:40.898Z</time>
+		<time>2024-11-04T07:58:03.499Z</time>
 	</metadata>
 	<wpt lat="37.947724" lon="72.001652">
 		<name>поправить хребет</name>
@@ -173,6 +173,15 @@
 	</wpt>
 	<wpt lat="38.336540" lon="72.988358">
 		<name>хребет</name>
+	</wpt>
+	<wpt lat="39.332771" lon="70.101871">
+		<name>убрать хребет</name>
+	</wpt>
+	<wpt lat="39.352352" lon="70.133071">
+		<name>артефакт ALOS</name>
+	</wpt>
+	<wpt lat="39.365957" lon="70.450516">
+		<name>нет хороших космоснимков</name>
 	</wpt>
 	<trk>
 		<name>hr2024_z16_brd</name>
