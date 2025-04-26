@@ -676,7 +676,7 @@ OBJECT	0x6701 Потерянного ледника
   OPT	Source	westra_passes
   LABEL	73668651,39540022 L H
   DATA	73669360,39538570
-OBJECT	0x6701 Снежная полоска
+OBJECT	0x6701 Снежн. полоска
   OPT	Source	westra_passes
   LABEL	73583905,39552215 L H
   DATA	73581772,39552937
@@ -696,7 +696,7 @@ OBJECT	0x6702 Подарок
   OPT	Source	westra_passes
   LABEL	73510859,39534879 L H
   DATA	73516042,39538086
-OBJECT	0x6702 Снежная Полоска Верх.
+OBJECT	0x6702 Снежн. Полоска Верх.
   OPT	Source	westra_passes
   LABEL	73588176,39545733 L H
   DATA	73588640,39544034
