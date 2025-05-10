@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
 	<metadata>
-		<time>2024-12-05T09:33:44.967Z</time>
+		<time>2025-05-10T04:55:57.242Z</time>
 	</metadata>
 	<wpt lat="37.947724" lon="72.001652">
 		<name>поправить хребет</name>
@@ -71,9 +71,6 @@
 	</wpt>
 	<wpt lat="39.387448" lon="68.061423">
 		<name>р.Ангорби</name>
-	</wpt>
-	<wpt lat="39.345584" lon="68.088459">
-		<name>абДу</name>
 	</wpt>
 	<wpt lat="39.377234" lon="68.804845">
 		<name>Похут</name>
@@ -258,12 +255,6 @@
 	<wpt lat="38.769424" lon="69.282944">
 		<name>mst1</name>
 	</wpt>
-	<wpt lat="38.724534" lon="69.323220">
-		<name>mst</name>
-	</wpt>
-	<wpt lat="38.729384" lon="69.329357">
-		<name>рыбхоз</name>
-	</wpt>
 	<wpt lat="38.763030" lon="69.354462">
 		<name>mst</name>
 	</wpt>
@@ -276,8 +267,38 @@
 	<wpt lat="38.331387" lon="73.376188">
 		<name>хр</name>
 	</wpt>
-	<wpt lat="38.621565" lon="73.342323">
+	<wpt lat="38.621559" lon="73.342328">
 		<name>артефакты ALOS</name>
+	</wpt>
+	<wpt lat="39.386847" lon="72.006030">
+		<name>ТЕр-Аша</name>
+	</wpt>
+	<wpt lat="39.329319" lon="71.865096">
+		<name>река</name>
+	</wpt>
+	<wpt lat="39.332731" lon="71.859860">
+		<name>rd</name>
+	</wpt>
+	<wpt lat="39.332173" lon="71.843466">
+		<name>хр</name>
+	</wpt>
+	<wpt lat="39.665797" lon="72.760052">
+		<name>дорога</name>
+	</wpt>
+	<wpt lat="39.775832" lon="72.099499">
+		<name>подпись</name>
+	</wpt>
+	<wpt lat="39.993820" lon="71.785187">
+		<name>Шамаксай</name>
+	</wpt>
+	<wpt lat="39.934554" lon="71.834111">
+		<name>Олюнкуш</name>
+	</wpt>
+	<wpt lat="39.574859" lon="72.025170">
+		<name>арык</name>
+	</wpt>
+	<wpt lat="37.893135" lon="73.141141">
+		<name>подпись</name>
 	</wpt>
 	<trk>
 		<name>hr2024_z16_brd</name>
