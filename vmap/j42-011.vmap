@@ -526,6 +526,10 @@ OBJECT	0x6700 Алмалы-Бель
   OPT	Source	westra_passes
   LABEL	71228440,39849850 L H
   DATA	71228440,39849850
+OBJECT	0x6700 Метине-Бель
+  OPT	Source	westra_passes
+  LABEL	71411532,39962200 L H
+  DATA	71407940,39962200
 OBJECT	0x6700 Орюктюнюнбель
   OPT	Source	westra_passes
   LABEL	71227970,39835278 L H
