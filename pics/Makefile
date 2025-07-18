@@ -4,7 +4,7 @@ PICS := avt kladb cross cerkov pam ohotn bash shaht razv dom trig trig_hr kan\
         ldp  kladb pupyr yama skala\
         bol_l bol_h zd ur_vod por vdp pesch\
         rossip1 rossip2 sand_ov camp camp2 camp3 gate at at2\
-        ledn redk vyr_n vyr_o sand
+        ledn redk vyr_n vyr_o sand past1 past2 past3 crater
 
 
 PNG := $(patsubst %,%.png,$(PICS))
