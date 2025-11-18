@@ -1,1 +1,2 @@
 # id   lat         lon           alt   title /other title/, cat
+19399   36.9864000   73.5222500  4267  пер. Daliz, н/к
